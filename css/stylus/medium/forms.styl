@@ -2,11 +2,13 @@
 block-color ?= primary
 alt-color ?= secondary
 
-input[type="text"], .input-group, textarea, select
+input[type="text"], input[type="date"], input[type="time"], .input-group, textarea, select
 	outline none
 	border 2px solid alt-color
 	border-radius 0
 	transition .3s
+	padding .25rem
+	width 100%
 	&.light
 		border 2px solid lighten(alt-color, 95%)
 		border-bottom 2px solid alt-color
@@ -24,10 +26,15 @@ input[type="text"], .input-group, textarea, select
 	& > span
 		height: min-content;
 		margin: auto 0;
-		min-width 2em
+		min-width 2rem
 		text-align: center;
 		vertical-align: middle;
 	& > input
 		border 0
 		background none
 		flex 1
+		padding 0
+select
+	padding-right: 1rem
+.overhead-label
+	margin-left .5rem

@@ -8,46 +8,114 @@ html, body {
 body {
   font-size: 1rem;
   background: #fff;
-  padding: 0.5rem;
 }
+
+html 
+	scroll-behavior: smooth;
 
 p {
   font-size: inherit;
 }
 
 h1, h2, h3, h4, h5, h6
-	margin-top 0
+	margin-bottom 0
 	
-// demos
-.demo
-	a&-a
-		color link !important
-		padding 0
-		margin 0
-		border 0
+body 
+	display: flex;
+	flex-direction: column;
+	& > main 
+		flex 1
+
+header
+	& > *
+		padding: 0 1em;
+	padding .5em
+	margin-bottom 1em
+	background rgb(10, 24, 38)
+	&, & a
+		color rgb(146, 161, 177) !important
+
+footer
+	margin-top 1em
+	padding-bottom 2em
+	&, & ul.menu
+		ul.menu li
+			border-radius 5px
+			&:hover
+				background black
+		background rgb(10, 24, 38)
+		color white
+
+body
+	padding 0
+	
+body main 
+	font-size: 1.25em;
+	div
+		padding: 0 1em;
+	a
+		&:hover
+			text-decoration underline
+		text-decoration none
+		color: #748190 !important;
+		font-weight: 600;
+a.special
+	padding 0
+	&:hover
 		text-decoration underline
-		&.hover
-			text-decoration none
-		&.active, &.focus
-			background-color link-active !important
-		&.visited
-			color link-v !important
-			&.active, &.focus
-				background-color link-v-active !important
-	&-font
-		&-open
-			font-family "Open Sans"
-		&-raleway
-			font-family "Raleway"
-		&-montserrat
-			font-family "Montserrat"
-		&-metrophobic
-			font-family "Metrophobic"
-		&-quicksand
-			font-family "Quicksand"
-.flex.demo
-	border 1px solid
-	& *
-		margin auto 0 auto 10px
-	&.demo-v
-		max-width 200px
+	text-decoration none
+	color: #748190;
+	font-weight: 600;
+
+footer > div.flex
+	margin-top 1em
+	& > div
+		margin-top 0
+		flex 1
+		& > ul.menu
+			padding-bottom 1em
+			margin-top 0
+			width 100%
+			border 0
+			& > h3
+				color rgb(146, 161, 177)
+			& > h3, & > div
+				margin 0 .5em
+				padding 0 .25em
+			& > li
+				& > a
+					&:focus, &:active
+						background unset
+					padding 0.5em
+					color back
+					text-decoration none
+				margin 0 0.5em
+				padding 0.25em 0
+				width: fit-content;
+				
+.card-i 
+	height: 2.8rem;
+	font-size: 28px;
+	width: 28px;
+	line-height: 2.8rem;
+	margin: 0 5px;
+	text-align: center;
+	padding: 0;
+	border-radius 0
+	border: 0;
+	border-bottom: 3px solid rgb(146, 161, 177)
+	background: black
+	caret-color: transparent;
+	text-transform: uppercase;
+	&.card-fill
+		border 0
+.guess {
+	display: flex;
+}
+
+code:not(.inline)
+	background rgb(243, 245, 246)
+	font-size 1em
+	display block
+	border-radius .5em
+	padding .5em

@@ -8,6 +8,7 @@ alt-color ?= secondary
 	padding-left 0
 	width max-content
 	background-color back
+	opacity 1
 	*
 		padding .5em
 		margin 0
@@ -19,5 +20,7 @@ alt-color ?= secondary
 	margin 0
 	position absolute
 	display none
-	&[open]
+	&[open], &:hover
 		display block
+	&[closed]
+		opacity 0

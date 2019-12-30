@@ -4,14 +4,18 @@ alt-color ?= secondary
 dialog
 	border 2px solid alt-color
 	display none
+	padding 1rem
+	max-width: 600px;
+	margin: auto;
+	top 0
+	bottom 0
+	left 0
 	&[open]
 		display block
 		position absolute
-		max-width: 600px;
-		margin: auto;
-		top 0
-		bottom 0
-		left 0
-		min-width 320px
+		@media all and (max-width: 800px)
+			min-width 100px
+		@media all and (max-width: 600px)
+			margin-top 0 !important
 	&::backdrop
 		background-color rgba(lighten(alt-color, 60%), 0.8)

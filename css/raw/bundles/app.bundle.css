@@ -8,7 +8,9 @@ body {
 body {
   font-size: 1rem;
   background: #fff;
-  padding: 0.5rem;
+}
+html {
+  scroll-behavior: smooth;
 }
 p {
   font-size: inherit;
@@ -19,51 +21,131 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
+  margin-bottom: 0;
 }
-a.demo-a {
-  color: #006bd4 !important;
+body {
+  display: flex;
+  flex-direction: column;
+}
+body > main {
+  flex: 1;
+}
+header {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background: #0a1826;
+}
+header > * {
+  padding: 0 1em;
+}
+header,
+header a {
+  color: #92a1b1 !important;
+}
+footer {
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+footer,
+footer ul.menu {
+  background: #0a1826;
+  color: #fff;
+}
+footer ul.menu li,
+footer ul.menu ul.menu li {
+  border-radius: 5px;
+}
+footer ul.menu li:hover,
+footer ul.menu ul.menu li:hover {
+  background: #000;
+}
+body {
   padding: 0;
-  margin: 0;
-  border: 0;
+}
+body main {
+  font-size: 1.25em;
+}
+body main div {
+  padding: 0 1em;
+}
+body main a {
+  text-decoration: none;
+  color: #748190 !important;
+  font-weight: 600;
+}
+body main a:hover {
   text-decoration: underline;
 }
-a.demo-a.hover {
+a.special {
+  padding: 0;
+  text-decoration: none;
+  color: #748190;
+  font-weight: 600;
+}
+a.special:hover {
+  text-decoration: underline;
+}
+footer > div.flex {
+  margin-top: 1em;
+}
+footer > div.flex > div {
+  margin-top: 0;
+  flex: 1;
+}
+footer > div.flex > div > ul.menu {
+  padding-bottom: 1em;
+  margin-top: 0;
+  width: 100%;
+  border: 0;
+}
+footer > div.flex > div > ul.menu > h3 {
+  color: #92a1b1;
+}
+footer > div.flex > div > ul.menu > h3,
+footer > div.flex > div > ul.menu > div {
+  margin: 0 0.5em;
+  padding: 0 0.25em;
+}
+footer > div.flex > div > ul.menu > li {
+  margin: 0 0.5em;
+  padding: 0.25em 0;
+  width: fit-content;
+}
+footer > div.flex > div > ul.menu > li > a {
+  padding: 0.5em;
+  color: #fff;
   text-decoration: none;
 }
-a.demo-a.active,
-a.demo-a.focus {
-  background-color: rgba(0,96,223,0.2) !important;
+footer > div.flex > div > ul.menu > li > a:focus,
+footer > div.flex > div > ul.menu > li > a:active {
+  background: unset;
 }
-a.demo-a.visited {
-  color: #952bb9 !important;
+.card-i {
+  height: 2.8rem;
+  font-size: 28px;
+  width: 28px;
+  line-height: 2.8rem;
+  margin: 0 5px;
+  text-align: center;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 3px solid #92a1b1;
+  background: #000;
+  caret-color: transparent;
+  text-transform: uppercase;
 }
-a.demo-a.visited.active,
-a.demo-a.visited.focus {
-  background-color: rgba(149,43,185,0.2) !important;
+.card-i.card-fill {
+  border: 0;
 }
-.demo-font-open {
-  font-family: "Open Sans";
+.guess {
+  display: flex;
 }
-.demo-font-raleway {
-  font-family: "Raleway";
-}
-.demo-font-montserrat {
-  font-family: "Montserrat";
-}
-.demo-font-metrophobic {
-  font-family: "Metrophobic";
-}
-.demo-font-quicksand {
-  font-family: "Quicksand";
-}
-.flex.demo {
-  border: 1px solid;
-}
-.flex.demo * {
-  margin: auto 0 auto 10px;
-}
-.flex.demo.demo-v {
-  max-width: 200px;
+code:not(.inline) {
+  background: #f3f5f6;
+  font-size: 1em;
+  display: block;
+  border-radius: 0.5em;
+  padding: 0.5em;
 }
 /*# sourceMappingURL=app.bundle.css.map */

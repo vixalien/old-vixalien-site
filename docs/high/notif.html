@@ -13,13 +13,64 @@
     <script type="text/javascript" src="/js/bundle.js" defer></script>
     <!-- No translations now -->
   </head>
-  <body>
+  <body class="page">
     <div>
       <h1>Vix notif</h1>
       <p>A notif is a block of information that provide real-time notifications or alerts.</p>
       <h3>Default notif</h3>
-      <button onclick="V.notifs.new('Hello', 'important')">Open</button><div>&nbsp;</div>
       <div class="notif"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h3>Block notif</h3>
+      <div class="notif notif-block"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h3>Important notif</h3>
+      <div class="notif notif-important"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h3>Alternate notif</h3>
+      <div class="notif notif-alt"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h3>Success notif</h3>
+      <div class="notif notif-success"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h3>Warning notif</h3>
+      <div class="notif notif-warning"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h3>Error notif</h3>
+      <div class="notif  notif-error"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h3>Default notif</h3>
+      <div class="notif"><span>Welcome to Vix design</span><a href="#">Read the Docs</a></div>
+      <h2>Floating notifs</h2>
+      <form class="flex demo-notif" id="notif-float">
+        <div class="tab">
+          <small class="overhead-label">Value</small><br>
+          <div class="input-group"><input type="text" name="val1" id="val1" placeholder="Value "></div>
+        </div>
+        <div>
+          <small class="overhead-label">Type</small><br>
+          <select name="val2" id="val2">
+            <option value="default" selected="">Default</option>
+            <option value="block">Block</option>
+            <option value="important">Important</option>
+            <option value="alternate">Alternate</option>
+            <option value="success">Success</option>
+            <option value="warning">Warning</option>
+            <option value="error">Error</option>
+          </select>
+        </div>
+        <div>
+          <small class="overhead-label">Lifetime</small><br>
+          <div class="input-group"><input type="text" name="val3" id="val3" placeholder="Lifetime">
+          <span>sec</span></div>
+        </div>
+        <input type="submit" name="val4" value="Open">
+        <script type="text/javascript">
+          form = document.getElementById('notif-float');
+          form.onsubmit = function(e) {
+            e.preventDefault();
+            let val = document.getElementById("val1").value;
+            let type = document.getElementById("val2").value;
+            let lifetime = document.getElementById("val3").value;
+            V.notifs.new(val, type, lifetime * 1000);
+          }
+        </script>
+        <noscript>
+          This app needs javascript enabled to work properly.
+        </noscript>
+      </form>
     </div>
   </body>
 </html>

@@ -280,42 +280,560 @@ pre {
   font-family: /* macOS 10.10+ */ "Menlo", /* Windows 6+ */ "Consolas", /* Android 4+ */ "Roboto Mono", /* Ubuntu 10.10+ */ "Ubuntu Monospace", /* KDE Plasma 5+ */ "Noto Mono", /* KDE Plasma 4+ */ "Oxygen Mono", /* Linux/OpenOffice fallback */ "Liberation Mono", /* fallback */ monospace, /* macOS emoji */ "Apple Color Emoji", /* Windows emoji */ "Segoe UI Emoji", /* Windows emoji */ "Segoe UI Symbol", /* Linux emoji */ "Noto Color Emoji";
 }
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Philippa";
+  src: url("/data/fonts/Philippa-Bold.woff");
   font-style: normal;
-  font-weight: 400;
-  src: url("/data/fonts/montserrat-v14-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local('Montserrat Regular'), local('Montserrat-Regular'), url("/data/fonts/montserrat-v14-latin-regular.eot?#iefix") format('embedded-opentype'), url("/data/fonts/montserrat-v14-latin-regular.woff2") format('woff2'), url("/data/fonts/montserrat-v14-latin-regular.woff") format('woff'), url("/data/fonts/montserrat-v14-latin-regular.ttf") format('truetype'), url("/data/fonts/montserrat-v14-latin-regular.svg#Montserrat") format('svg'); /* Legacy iOS */
+  font-stretch: normal;
+  font-weight: 700;
 }
 @font-face {
-  font-family: 'Metrophobic';
+  font-family: "Philippa";
+  src: url("/data/fonts/Philippa-ExtraBold.woff");
   font-style: normal;
-  font-weight: 400;
-  src: url("/data/fonts/metrophobic-v13-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local('Metrophobic Regular'), local('Metrophobic-Regular'), url("/data/fonts/metrophobic-v13-latin-regular.eot?#iefix") format('embedded-opentype'), url("/data/fonts/metrophobic-v13-latin-regular.woff2") format('woff2'), url("/data/fonts/metrophobic-v13-latin-regular.woff") format('woff'), url("/data/fonts/metrophobic-v13-latin-regular.ttf") format('truetype'), url("/data/fonts/metrophobic-v13-latin-regular.svg#Metrophobic") format('svg'); /* Legacy iOS */
+  font-stretch: normal;
+  font-weight: 800;
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Philippa";
+  src: url("/data/fonts/Philippa-ExtraLight.woff");
   font-style: normal;
-  font-weight: 400;
-  src: url("/data/fonts/open-sans-v17-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("/data/fonts/open-sans-v17-latin-regular.eot?#iefix") format('embedded-opentype'), url("/data/fonts/open-sans-v17-latin-regular.woff2") format('woff2'), url("/data/fonts/open-sans-v17-latin-regular.woff") format('woff'), url("/data/fonts/open-sans-v17-latin-regular.ttf") format('truetype'), url("/data/fonts/open-sans-v17-latin-regular.svg#OpenSans") format('svg'); /* Legacy iOS */
+  font-stretch: normal;
+  font-weight: 200;
 }
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Philippa";
+  src: url("/data/fonts/Philippa-Light.woff");
   font-style: normal;
-  font-weight: 400;
-  src: url("/data/fonts/quicksand-v19-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(''), url("/data/fonts/quicksand-v19-latin-regular.eot?#iefix") format('embedded-opentype'), url("/data/fonts/quicksand-v19-latin-regular.woff2") format('woff2'), url("/data/fonts/quicksand-v19-latin-regular.woff") format('woff'), url("/data/fonts/quicksand-v19-latin-regular.ttf") format('truetype'), url("/data/fonts/quicksand-v19-latin-regular.svg#Quicksand") format('svg'); /* Legacy iOS */
+  font-stretch: normal;
+  font-weight: 300;
 }
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Philippa";
+  src: url("/data/fonts/Philippa-Medium.woff");
   font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Philippa";
+  src: url("/data/fonts/Philippa-Regular.woff");
+  font-style: normal;
+  font-stretch: normal;
   font-weight: 400;
-  src: url("/data/fonts/raleway-v14-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local('Raleway'), local('Raleway-Regular'), url("/data/fonts/raleway-v14-latin-regular.eot?#iefix") format('embedded-opentype'), url("/data/fonts/raleway-v14-latin-regular.woff2") format('woff2'), url("/data/fonts/raleway-v14-latin-regular.woff") format('woff'), url("/data/fonts/raleway-v14-latin-regular.ttf") format('truetype'), url("/data/fonts/raleway-v14-latin-regular.svg#Raleway") format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Philippa";
+  src: url("/data/fonts/Philippa-SemiBold.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-Black.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BlackCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BlackCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BlackExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BlackExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BlackItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BlackSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BlackSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-Bold.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BoldCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BoldCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BoldExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BoldExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BoldItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BoldSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-BoldSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBold.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBoldCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBoldCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBoldExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBoldExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBoldItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBoldSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraBoldSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLight.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLightCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLightCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLightExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLightExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLightItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLightSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ExtraLightSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-Light.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-LightCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-LightCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-LightExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-LightExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-LightItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-LightSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-LightSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-Medium.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-MediumCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-MediumCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-MediumExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-MediumExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-MediumItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-MediumSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-MediumSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-Regular.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-RegularCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-RegularCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-RegularExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-RegularExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-RegularItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-RegularSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-RegularSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBold.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBoldCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBoldCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBoldExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBoldExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBoldItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBoldSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-SemiBoldSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-Thin.woff");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ThinCondensed.woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ThinCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: condensed;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ThinExpanded.woff");
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ThinExpandedItalic.woff");
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ThinItalic.woff");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ThinSemiCondensed.woff");
+  font-style: normal;
+  font-stretch: semi-condensed;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Antipode";
+  src: url("/data/fonts/Antipode-ThinSemiCondensedItalic.woff");
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-weight: 100;
 }
 html {
-  font-family: "Montserrat";
+  font-family: "Antipode";
 }
 h1,
 h2,
@@ -323,15 +841,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway";
+  font-family: "Philippa";
   margin-top: 0;
 }
 button,
 input[type=submit],
 input[type=reset] {
+  font-family: "Philippa";
   padding: 0.25em 0.5em;
   border: 2px solid transparent;
-  color: #fff;
+  color: #000;
   background-color: #f25767;
   transition: 0.3s;
   outline: 0;
@@ -349,19 +868,19 @@ button:focus,
 input[type=submit]:focus,
 input[type=reset]:focus {
   box-shadow: 0 0 0 3px #f68995;
-  color: #fff;
+  color: #000;
   background-color: #f25767;
 }
 button.alternate,
 input[type=submit].alternate,
 input[type=reset].alternate {
-  color: #fff;
+  color: #000;
   background-color: #bdbdbd;
 }
 button.alternate:hover,
 input[type=submit].alternate:hover,
 input[type=reset].alternate:hover {
-  color: #fff;
+  color: #000;
   background-color: #c7c7c7;
 }
 button.alternate:active,
@@ -371,7 +890,7 @@ button.alternate:focus,
 input[type=submit].alternate:focus,
 input[type=reset].alternate:focus {
   box-shadow: 0 0 0 3px #d1d1d1;
-  color: #fff;
+  color: #000;
   background-color: #bdbdbd;
 }
 button.text,
@@ -427,6 +946,8 @@ input[type=reset].raised:focus {
   box-shadow: 0 0 0 3px #f68995;
 }
 input[type="text"],
+input[type="date"],
+input[type="time"],
 .input-group,
 textarea,
 select {
@@ -434,8 +955,12 @@ select {
   border: 2px solid #bdbdbd;
   border-radius: 0;
   transition: 0.3s;
+  padding: 0.25rem;
+  width: 100%;
 }
 input[type="text"].light,
+input[type="date"].light,
+input[type="time"].light,
 .input-group.light,
 textarea.light,
 select.light {
@@ -444,6 +969,8 @@ select.light {
   background-color: #fcfcfc;
 }
 input[type="text"].light:hover,
+input[type="date"].light:hover,
+input[type="time"].light:hover,
 .input-group.light:hover,
 textarea.light:hover,
 select.light:hover {
@@ -452,10 +979,14 @@ select.light:hover {
   border-bottom: 2px solid #bdbdbd;
 }
 input[type="text"].light:active,
+input[type="date"].light:active,
+input[type="time"].light:active,
 .input-group.light:active,
 textarea.light:active,
 select.light:active,
 input[type="text"].light:focus,
+input[type="date"].light:focus,
+input[type="time"].light:focus,
 .input-group.light:focus,
 textarea.light:focus,
 select.light:focus {
@@ -469,7 +1000,7 @@ select.light:focus {
 .input-group > span {
   height: min-content;
   margin: auto 0;
-  min-width: 2em;
+  min-width: 2rem;
   text-align: center;
   vertical-align: middle;
 }
@@ -477,6 +1008,13 @@ select.light:focus {
   border: 0;
   background: none;
   flex: 1;
+  padding: 0;
+}
+select {
+  padding-right: 1rem;
+}
+.overhead-label {
+  margin-left: 0.5rem;
 }
 ::selection {
   background: #d1d1d1;
@@ -497,7 +1035,11 @@ table td.numeric {
   text-align: right;
 }
 table tr:hover {
+  cursor: pointer;
   background-color: #f2f2f2;
+}
+table th {
+  font-family: "Philippa";
 }
 blockquote {
   border-left: 10px solid #bdbdbd;
@@ -550,6 +1092,14 @@ hr {
   background: #bdbdbd;
   border: 0;
 }
+body.page {
+  padding-bottom: 200px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 .container * {
   max-width: 800px;
   margin: 0 auto;
@@ -574,6 +1124,11 @@ hr {
   margin: 0;
   text-align: left;
 }
+@media all and (max-width: 800px) {
+  .flex.responsive {
+    flex-direction: column;
+  }
+}
 .menu,
 .menu-drop {
   border: 2px solid #bdbdbd;
@@ -581,6 +1136,7 @@ hr {
   padding-left: 0;
   width: max-content;
   background-color: #fff;
+  opacity: 1;
 }
 .menu *,
 .menu-drop * {
@@ -600,36 +1156,51 @@ hr {
   position: absolute;
   display: none;
 }
-.menu-drop[open] {
+.menu-drop[open],
+.menu-drop:hover {
   display: block;
+}
+.menu-drop[closed] {
+  opacity: 0;
 }
 dialog {
   border: 2px solid #bdbdbd;
   display: none;
-}
-dialog[open] {
-  display: block;
-  position: absolute;
+  padding: 1rem;
   max-width: 600px;
   margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
-  min-width: 320px;
+}
+dialog[open] {
+  display: block;
+  position: absolute;
+}
+@media all and (max-width: 800px) {
+  dialog[open] {
+    min-width: 100px;
+  }
+}
+@media all and (max-width: 600px) {
+  dialog[open] {
+    margin-top: 0 !important;
+  }
 }
 dialog::backdrop {
   background-color: rgba(229,229,229,0.8);
 }
 .notif {
+  transition: 0.3s;
   width: 100%;
   min-height: 2rem;
   font-size: 1rem;
-  font-family: "Metrophobic";
+  font-family: "Philippa";
   text-align: center;
-  font-weight: 200;
+  font-weight: 600;
   display: inline-block;
   background-color: #ededf0;
-  border: 0.1rem solid #000;
+  border: 2px solid #bdbdbd;
 }
 .notif > *:not(button) {
   margin: 0.5rem;
@@ -655,13 +1226,26 @@ dialog::backdrop {
   left: 1rem;
   width: 50vw;
 }
-.notif .notif[closed] {
-  animation: disappear 2s;
+.notif[closed] {
   display: none;
 }
 .notif::before:hover {
-  background-color: rgba(0,0,0,0.2) !important;
+  background-color: rgba(0,0,0,0.2);
   transition: 0.3s;
+}
+.notif[hidden] {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.notif-block {
+  color: #000;
+  background-color: #f25767;
+}
+.notif-alt {
+  color: #000;
+  background-color: #bdbdbd;
 }
 .notif-success {
   background-color: #88ffd1;
@@ -674,14 +1258,18 @@ dialog::backdrop {
 }
 .notif-important {
   background-color: #0060df;
-  color: #fff;
 }
-.notif-important > button {
-  filter: invert(100%);
+.notif-important,
+.notif-important > a[href] {
+  color: #fff !important;
+}
+.notif-important::before {
+  background: url("/img/close-white.svg") center center no-repeat;
+  background-color: rgba(0,0,0,0.1);
 }
 @media all and (max-width: 720px) {
   .notif::before {
-    background-color: transparent !important;
+    background-color: transparent;
   }
   .notif.notif-float {
     width: calc(100% - 2rem);
@@ -695,7 +1283,9 @@ body {
 body {
   font-size: 1rem;
   background: #fff;
-  padding: 0.5rem;
+}
+html {
+  scroll-behavior: smooth;
 }
 p {
   font-size: inherit;
@@ -706,51 +1296,131 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
+  margin-bottom: 0;
 }
-a.demo-a {
-  color: #006bd4 !important;
+body {
+  display: flex;
+  flex-direction: column;
+}
+body > main {
+  flex: 1;
+}
+header {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background: #0a1826;
+}
+header > * {
+  padding: 0 1em;
+}
+header,
+header a {
+  color: #92a1b1 !important;
+}
+footer {
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+footer,
+footer ul.menu {
+  background: #0a1826;
+  color: #fff;
+}
+footer ul.menu li,
+footer ul.menu ul.menu li {
+  border-radius: 5px;
+}
+footer ul.menu li:hover,
+footer ul.menu ul.menu li:hover {
+  background: #000;
+}
+body {
   padding: 0;
-  margin: 0;
-  border: 0;
+}
+body main {
+  font-size: 1.25em;
+}
+body main div {
+  padding: 0 1em;
+}
+body main a {
+  text-decoration: none;
+  color: #748190 !important;
+  font-weight: 600;
+}
+body main a:hover {
   text-decoration: underline;
 }
-a.demo-a.hover {
+a.special {
+  padding: 0;
+  text-decoration: none;
+  color: #748190;
+  font-weight: 600;
+}
+a.special:hover {
+  text-decoration: underline;
+}
+footer > div.flex {
+  margin-top: 1em;
+}
+footer > div.flex > div {
+  margin-top: 0;
+  flex: 1;
+}
+footer > div.flex > div > ul.menu {
+  padding-bottom: 1em;
+  margin-top: 0;
+  width: 100%;
+  border: 0;
+}
+footer > div.flex > div > ul.menu > h3 {
+  color: #92a1b1;
+}
+footer > div.flex > div > ul.menu > h3,
+footer > div.flex > div > ul.menu > div {
+  margin: 0 0.5em;
+  padding: 0 0.25em;
+}
+footer > div.flex > div > ul.menu > li {
+  margin: 0 0.5em;
+  padding: 0.25em 0;
+  width: fit-content;
+}
+footer > div.flex > div > ul.menu > li > a {
+  padding: 0.5em;
+  color: #fff;
   text-decoration: none;
 }
-a.demo-a.active,
-a.demo-a.focus {
-  background-color: rgba(0,96,223,0.2) !important;
+footer > div.flex > div > ul.menu > li > a:focus,
+footer > div.flex > div > ul.menu > li > a:active {
+  background: unset;
 }
-a.demo-a.visited {
-  color: #952bb9 !important;
+.card-i {
+  height: 2.8rem;
+  font-size: 28px;
+  width: 28px;
+  line-height: 2.8rem;
+  margin: 0 5px;
+  text-align: center;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 3px solid #92a1b1;
+  background: #000;
+  caret-color: transparent;
+  text-transform: uppercase;
 }
-a.demo-a.visited.active,
-a.demo-a.visited.focus {
-  background-color: rgba(149,43,185,0.2) !important;
+.card-i.card-fill {
+  border: 0;
 }
-.demo-font-open {
-  font-family: "Open Sans";
+.guess {
+  display: flex;
 }
-.demo-font-raleway {
-  font-family: "Raleway";
-}
-.demo-font-montserrat {
-  font-family: "Montserrat";
-}
-.demo-font-metrophobic {
-  font-family: "Metrophobic";
-}
-.demo-font-quicksand {
-  font-family: "Quicksand";
-}
-.flex.demo {
-  border: 1px solid;
-}
-.flex.demo * {
-  margin: auto 0 auto 10px;
-}
-.flex.demo.demo-v {
-  max-width: 200px;
+code:not(.inline) {
+  background: #f3f5f6;
+  font-size: 1em;
+  display: block;
+  border-radius: 0.5em;
+  padding: 0.5em;
 }
 /*# sourceMappingURL=omni.bundle.css.map */

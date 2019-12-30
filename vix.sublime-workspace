@@ -4,12 +4,68 @@
 		"selected_items":
 		[
 			[
-				"fo",
-				"fori\tfor (…) {…}"
+				"get",
+				"getElementById"
 			],
 			[
 				"f",
-				"func\tFunction"
+				"f\tAnonymous Function"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"no",
+				"noscript\tTag"
+			],
+			[
+				"inp",
+				"input-group"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"re",
+				"registerAll\tproperty"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"app",
+				"appendChild\tmethod"
+			],
+			[
+				"crea",
+				"createElement\tmethod"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"font-ste",
+				"font-stretch\tproperty"
+			],
+			[
+				"Extra",
+				"ExtraBold"
+			],
+			[
+				"Dem",
+				"DemiBold"
 			],
 			[
 				"back",
@@ -26,10 +82,6 @@
 			[
 				"me",
 				"menu\talias"
-			],
-			[
-				"re",
-				"registerAll\tfunction"
 			],
 			[
 				"r",
@@ -58,10 +110,6 @@
 			[
 				"primary",
 				"primary"
-			],
-			[
-				"tra",
-				"transition\tstyl"
 			],
 			[
 				"mar",
@@ -156,10 +204,6 @@
 				"font-size\tproperty"
 			],
 			[
-				"li",
-				"li\tTag"
-			],
-			[
 				"g",
 				"globalThis\tmodule"
 			],
@@ -182,10 +226,6 @@
 			[
 				"min",
 				"min-width\tproperty"
-			],
-			[
-				"marg",
-				"margin\tproperty"
 			],
 			[
 				"di",
@@ -294,10 +334,6 @@
 			[
 				"not",
 				"notif"
-			],
-			[
-				"app",
-				"appendChild"
 			],
 			[
 				"pare",
@@ -478,42 +514,6 @@
 			[
 				"boo",
 				"bootsnap"
-			],
-			[
-				"ver",
-				"very-light"
-			],
-			[
-				"backgro",
-				"background-color\tproperty"
-			],
-			[
-				"st",
-				"sticky\tposition"
-			],
-			[
-				"sec",
-				"secondary-medium"
-			],
-			[
-				"fore",
-				"foreground-lighter"
-			],
-			[
-				"se",
-				"secondary-light"
-			],
-			[
-				"background",
-				"background-size\tproperty"
-			],
-			[
-				"b",
-				"b\tTag"
-			],
-			[
-				"background-d",
-				"background-dark"
 			]
 		]
 	},
@@ -528,134 +528,12 @@
 			}
 		},
 		{
-			"file": "docs/high/dialog.html",
+			"file": "css/stylus/variables.styl",
 			"settings":
 			{
-				"buffer_size": 1484,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "docs/high/notif.html",
-			"settings":
-			{
-				"buffer_size": 878,
+				"buffer_size": 1198,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "curl 'https://www.0.freebasics.com/https/intercrack.net/free2/index.php?bing.com' -H 'authority: www.0.freebasics.com' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'user-agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'dnt: 1' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/mEabSZz6TxC.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeEaa6X0mkuKQeybs62uZjFkWMeXSRLre0Qeuo91rIlXx5rdWrwEAMAhzSoiOfxBfB-D8h8nxEuyxUcuG1vDOsGt-99rdW5XcODhW06trF43xw' -H 'Referer: https://www.0.freebasics.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://0.freebasics.com/is_free.css/?t=1577490484.5343' -H 'pragma: no-cache' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' -H 'dnt: 1' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'user-agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'accept: text/css,*/*;q=0.1' -H 'cache-control: no-cache' -H 'authority: 0.freebasics.com' -H 'referer: https://www.0.freebasics.com/' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/y_/r/Ctr39PDHuUC.png?_nc_fbs=1&_nc_eui2=AeEfifXsJig3N8fp38jjT9PqdivpJKD7IHOXrMV5xEiabTHKcTPEgUdO9tUvbPHdRE-zV5tTZE0PXr82v1aA1Vg0qquYvwhuxFW94g4Jz4bpgQ' -H 'Referer: https://www.0.freebasics.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yn/r/Zm4BFD3j4R_.png?_nc_fbs=1&_nc_eui2=AeEjfoi5RHu84Ht2ACpRlG3xvPuOOi8FfRr1SzahvJCPFdoL4yCpSWbW8WztgvilhLyePf2Tsvj_yrW16dMBQ6CkD88jFY3sFpoAv-Ow9W503A' -H 'Referer: https://www.0.freebasics.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/bp3Q4pYZi9-.png?_nc_fbs=1&_nc_eui2=AeGoPRksg4HjGr5D2564zkbdjYMCvUsXFb-qPNBNFjQescwwHii3g2BzfJFeYrmJAhNhWvEBKFrmV1Ep245lQObeoM_PkH5q1qhViArkz0eOyw' -H 'Referer: https://www.0.freebasics.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/free2/index.php?bing.com&encryptedbackuri=AatSefRilpy0Iayvd1pajpoDusWD3XTGwgAfbpUKIEGWvmRGk9ACIx7_hoLv8XyAKAJMqlgoDkUoYfirkkvHNMdt2g' -H 'authority: https-intercrack-net.0.freebasics.com' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'dnt: 1' -H 'user-agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3' -H 'referer: https://www.0.freebasics.com/' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'authority: https-intercrack-net.0.freebasics.com' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'dnt: 1' -H 'user-agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3' -H 'referer: https://www.0.freebasics.com/' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/mEabSZz6TxC.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeEaa6X0mkuKQeybs62uZjFkWMeXSRLre0Qeuo91rIlXx5rdWrwEAMAhzSoiOfxBfB-D8h8nxEuyxUcuG1vDOsGt-99rdW5XcODhW06trF43xw' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ys/r/VtXUJax45D0.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeF3OF-qQIk6dUkDCPbeKtXuOV5qG70fFSwNQ7Sls2uMYP_AtpIlTRdP4yp9vTW2iGAHkhYdRD4TTjTCV3bRZjwVEZL32rIfEaS9f0SThFqf7Q' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/rs/6F/uI/ic/23b397af/f2e8bbe3.png' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/ImageResolution.aspx?w=320&h=480&hash=cdb5f7d0d92245f7c43b7ea6df95c79f&IG=8D5B795BFF434834A8897451A156AE8A' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/fd/s/a/sbbtn.png' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/th?id=OHR.FrozenTree_ROW0002697620_360x480.jpg&rf=LaDigue_1920x1080.jpg&pid=hp' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'authority: https-intercrack-net.0.freebasics.com' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'dnt: 1' -H 'user-agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3' -H 'referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/mEabSZz6TxC.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeEaa6X0mkuKQeybs62uZjFkWMeXSRLre0Qeuo91rIlXx5rdWrwEAMAhzSoiOfxBfB-D8h8nxEuyxUcuG1vDOsGt-99rdW5XcODhW06trF43xw' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ys/r/VtXUJax45D0.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeF3OF-qQIk6dUkDCPbeKtXuOV5qG70fFSwNQ7Sls2uMYP_AtpIlTRdP4yp9vTW2iGAHkhYdRD4TTjTCV3bRZjwVEZL32rIfEaS9f0SThFqf7Q' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/th?id=OIP.ONKeN_dRfxvaY10y4DRkpgHaEK&w=100&h=100&c=1&pid=5.1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/th?id=OIP.gVaBfoa8Cx0kVUseoVxF-gHaHC&w=100&h=100&c=1&pid=5.1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/s/bnp/bingLogo.png' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA6BAMAAADW582KAAAAMFBMVEXz8/Po6Ojc3NzQ0NDFxcW5ubmtra2ioqKWlpaKiop/f39zc3NnZ2dcXFxQUFD////nGopHAAAAEHRSTlP///////////////////8A4CNdGQAAATlJREFUOE/l0b1KA0EUBeDtxEL2EWJvsQ9gEZ9AsTdELQV/CluDhbViYatgky4KgvYq2ImFilWwCvnbwyxLFEE4FrOzcye5eQJPNXx3YJh7IqoxUbOqO9KjWHWgt6E7cJfojqt/5/kU//lY0u8DZxXF2QIGm4ovA8BTdcJ/AcC1J3xkT+iths52McBtEnjDOYb70ufg8yL8W/in8GyKiwdCz891Z3asO8227uSO7jNt1R2P+egZmnsu/YJk7tl5l2Te8uz8ZIz78xEAdORXAaR1u/96yNizfb3SNCRf2n7TxBxIfqT1+5A7sfVBvCa5X6H164CHK7TeXZScrrPwLck4pfOa5AeWnrU8v9M7v0ruVqRzoeBBtWSaiG4J6a5nmohk3gaAQ8HWOQvgRnLhrOEtYOdZM1Z9IuYPb2HPCpdbr0kAAAAASUVORK5CYII=' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAMFBMVEUAAAD///////////////////////////////////////////////////////////87TQQwAAAAD3RSTlMAZu6ImbtEEd2qIlUzd8xn79j3AAAA+ElEQVR42s2UBXIEMAwDFeb6/78t+NrmIpdxh2VNLIewMUOSe3wKHa8xkmykjJfoSQ5agcnwQvgJAyeM7R1PxRjyCM2/6O2XUnVQintUzrxJ9bjppakWcEVW1eGKqGo3Fo04aCx3TYWTonn3tIHac2Hv78EUSuB3gYdImyD3LOClBKc1/4jVvd8aoPAh3JxzVjC6N43a5Jcu8aLbkkBUvS8sOXuoZL2WCUvNVic/sLHEzJVFiZ2eeuRYF5rLQF5NFMsbxcZe9/1e/l5qeMlbrkP4UOBe8qKs9Dxe2f8nB4Oc3cgZF9jL/Eevx/u9eLe34l04L3XiZ7gFVLUe6IY32CsAAAAASUVORK5CYII=' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAcCAMAAAC02HQrAAAARVBMVEXv8Pzt7vvf4fnQ0/bP0vbO0vXN0fXBxfO/xPKhqO2fpuxgauBead9ATdlBTdo/TNk+S9kiMdQgL9MeLdMRIdAQIND///+WrJIIAAAAF3RSTlP/////////////////////////////AOZA5l4AAAB9SURBVCiRZdFBDsIwEENRF0IKhdIQsO9/VBZNook8yyfNxh+6HXxfFQ+pkvysk+0kyd8jGmmIlyPy1xByhBwhR8gRkqRcIp6mJWKzCbtpOTpuw9CNw9oWJLf+G6nZJdJpqUYSnAQnwak1mkh4Go1GgYRi1BrVu6IpF+4pkv4IYSk61xAM3QAAAABJRU5ErkJggg==' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'authority: https-intercrack-net.0.freebasics.com' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'dnt: 1' -H 'user-agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3' -H 'referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/mEabSZz6TxC.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeEaa6X0mkuKQeybs62uZjFkWMeXSRLre0Qeuo91rIlXx5rdWrwEAMAhzSoiOfxBfB-D8h8nxEuyxUcuG1vDOsGt-99rdW5XcODhW06trF43xw' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://cdn.sstatic.net/Shared/stacks.css?v=d0797a2dd6f2' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://cdn.sstatic.net/Sites/stackoverflow/mobile.css?v=ff5abb0baa58' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ys/r/VtXUJax45D0.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeF3OF-qQIk6dUkDCPbeKtXuOV5qG70fFSwNQ7Sls2uMYP_AtpIlTRdP4yp9vTW2iGAHkhYdRD4TTjTCV3bRZjwVEZL32rIfEaS9f0SThFqf7Q' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.gravatar.com/avatar/144f2644bab8407014ed32cc6512ec1c?s=30&d=identicon&r=PG' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://i.stack.imgur.com/WtEI9.png?s=30&g=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://i.stack.imgur.com/YrrWc.png?s=30&g=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.gravatar.com/avatar/b8554c52c157ae3a81a7c64b74d602ea?s=30&d=identicon&r=PG' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://i.stack.imgur.com/57Iv0.jpg?s=30&g=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://stackoverflow.com/posts/17099860/ivc/eaed' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file-line-by-line-where-each-line-has-delimiters' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyM3B4IiB2aWV3Qm94PSIwIDAgMjAgMjMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+ICAgICAgICA8dGl0bGU+c28gbG9nbzwvdGl0bGU+ICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPiAgICA8ZGVmcz48L2RlZnM+ICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICAgICAgPGcgaWQ9InN0YWNrLW92ZXJmbG93LXZlcnNpb24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMC4wMDAwMDAsIC0xMC4wMDAwMDApIj4gICAgICAgICAgICA8ZyBpZD0idG9wYmFyIj4gICAgICAgICAgICAgICAgPGcgaWQ9InNvLWxvZ28iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLjAwMDAwMCwgMTAuMDAwMDAwKSI+ICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iU2hhcGUiIGZpbGw9IiNCQ0JCQkIiIHBvaW50cz0iMTcgMjEgMTcgMTUgMTkgMTUgMTkgMjMgMCAyMyAwIDE1IDIgMTUgMiAyMSI+PC9wb2x5Z29uPiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTQuMzgwMDIwMDgsMTQuMzQzMTM3MyBMMTQuNzcyMDg4NCwxNi40NTQyNDg0IEwxNS4yMTgzNzM1LDE0LjQwNTIyODggTDQuODI2MzA1MjIsMTIuMjk0MTE3NiBMNC4zODAwMjAwOCwxNC4zNDMxMzczIEw0LjM4MDAyMDA4LDE0LjM0MzEzNzMgWiBNNS43MTg4NzU1LDkuNSBMMTUuMzQ1ODgzNSwxMy44NDY0MDUyIEwxNi4yMzg0NTM4LDExLjk4MzY2MDEgTDYuNjExNDQ1NzgsNy41NzUxNjM0IEw1LjcxODg3NTUsOS41IEw1LjcxODg3NTUsOS41IFogTTguMzk2NTg2MzUsNC45MDUyMjg3NiBMMTYuNTU3MjI4OSwxMS41NDkwMTk2IEwxNy44OTYwODQzLDkuOTM0NjQwNTIgTDkuNzM1NDQxNzcsMy4yOTA4NDk2NyBMOC4zOTY1ODYzNSw0LjkwNTIyODc2IEw4LjM5NjU4NjM1LDQuOTA1MjI4NzYgWiBNMTMuNjg4MjUzLDAgTDExLjk2Njg2NzUsMS4yNDE4MzAwNyBMMTguMjc4NjE0NSw5LjU2MjA5MTUgTDIwLDguMzIwMjYxNDQgTDEzLjY4ODI1MywwIEwxMy42ODgyNTMsMCBaIE00LjEyNSwxOSBMMTQuNzcyMDg4NCwxOSBMMTQuNzcyMDg4NCwxNi45NTA5ODA0IEw0LjEyNSwxNi45NTA5ODA0IEw0LjEyNSwxOSBMNC4xMjUsMTkgWiIgaWQ9IlNoYXBlIiBmaWxsPSIjRjQ4MDI0Ij48L3BhdGg+ICAgICAgICAgICAgICAgIDwvZz4gICAgICAgICAgICA8L2c+ICAgICAgICA8L2c+ICAgIDwvZz48L3N2Zz4=' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDMyIDIyIj48cGF0aCBzdHJva2U9IiM3NzgwOEUiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTIgMjFsMTUtMjAgMTUgMjBoLTMweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDMyIDIyIj48cGF0aCBzdHJva2U9IiM3NzgwOEUiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTIgMWwxNSAyMCAxNS0yMGgtMzB6IiBmaWxsPSJub25lIi8+PC9zdmc+' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNCI+PHBhdGggc3Ryb2tlPSIjNzc4MDhFIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xNy44MSAybDMuNzIgMTEuNDZoMTIuMDZsLTkuNzUgNy4xMSAzLjcyIDExLjQ2LTkuNzUtNy4wOC05Ljc4IDcuMDggMy43Mi0xMS40Ni05Ljc1LTcuMTFoMTIuMDZ6IiBmaWxsPSJub25lIi8+PC9zdmc+' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNCAxMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik00Ljk5OTk5OTc5LDcuOTk5OTk5ODIgTDIsNC45OTk5OTk4MiBMLTEuNTc3NTExNDVlLTA5LDcuNDk5OTk5ODIgTDUsMTIuMDAwMDAwMyBMMTQsMy4wMDAwMDAwNiBMMTEuOTU1NzgxMiwwLjkyMzE0OTQxIEw0Ljk5OTk5OTc5LDcuOTk5OTk5ODIgWiIgZmlsbD0iIzk2QzY1MyIvPjwvc3ZnPg==' -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'authority: https-intercrack-net.0.freebasics.com' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'dnt: 1' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3' -H 'referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?http://www.bing.com/' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/mEabSZz6TxC.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeEaa6X0mkuKQeybs62uZjFkWMeXSRLre0Qeuo91rIlXx5rdWrwEAMAhzSoiOfxBfB-D8h8nxEuyxUcuG1vDOsGt-99rdW5XcODhW06trF43xw' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ys/r/VtXUJax45D0.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeF3OF-qQIk6dUkDCPbeKtXuOV5qG70fFSwNQ7Sls2uMYP_AtpIlTRdP4yp9vTW2iGAHkhYdRD4TTjTCV3bRZjwVEZL32rIfEaS9f0SThFqf7Q' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/th?id=OIP.ONKeN_dRfxvaY10y4DRkpgHaEK&w=100&h=100&c=1&pid=5.1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/th?id=OIP.gVaBfoa8Cx0kVUseoVxF-gHaHC&w=100&h=100&c=1&pid=5.1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?http://www.bing.com/s/bnp/bingLogo.png' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZz-egKfdl4OtZ-Lupyzk3uFmouc27ojySEeKueMf07clzDuL-Jkwa9nyCpQI4bXmyP7b-A0p1t1PWs23OHKmXoH&q=reading+file+line+by+line+cat&qs=&form=QBLH&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA6BAMAAADW582KAAAAMFBMVEXz8/Po6Ojc3NzQ0NDFxcW5ubmtra2ioqKWlpaKiop/f39zc3NnZ2dcXFxQUFD////nGopHAAAAEHRSTlP///////////////////8A4CNdGQAAATlJREFUOE/l0b1KA0EUBeDtxEL2EWJvsQ9gEZ9AsTdELQV/CluDhbViYatgky4KgvYq2ImFilWwCvnbwyxLFEE4FrOzcye5eQJPNXx3YJh7IqoxUbOqO9KjWHWgt6E7cJfojqt/5/kU//lY0u8DZxXF2QIGm4ovA8BTdcJ/AcC1J3xkT+iths52McBtEnjDOYb70ufg8yL8W/in8GyKiwdCz891Z3asO8227uSO7jNt1R2P+egZmnsu/YJk7tl5l2Te8uz8ZIz78xEAdORXAaR1u/96yNizfb3SNCRf2n7TxBxIfqT1+5A7sfVBvCa5X6H164CHK7TeXZScrrPwLck4pfOa5AeWnrU8v9M7v0ruVqRzoeBBtWSaiG4J6a5nmohk3gaAQ8HWOQvgRnLhrOEtYOdZM1Z9IuYPb2HPCpdbr0kAAAAASUVORK5CYII=' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAMFBMVEUAAAD///////////////////////////////////////////////////////////87TQQwAAAAD3RSTlMAZu6ImbtEEd2qIlUzd8xn79j3AAAA+ElEQVR42s2UBXIEMAwDFeb6/78t+NrmIpdxh2VNLIewMUOSe3wKHa8xkmykjJfoSQ5agcnwQvgJAyeM7R1PxRjyCM2/6O2XUnVQintUzrxJ9bjppakWcEVW1eGKqGo3Fo04aCx3TYWTonn3tIHac2Hv78EUSuB3gYdImyD3LOClBKc1/4jVvd8aoPAh3JxzVjC6N43a5Jcu8aLbkkBUvS8sOXuoZL2WCUvNVic/sLHEzJVFiZ2eeuRYF5rLQF5NFMsbxcZe9/1e/l5qeMlbrkP4UOBe8qKs9Dxe2f8nB4Oc3cgZF9jL/Eevx/u9eLe34l04L3XiZ7gFVLUe6IY32CsAAAAASUVORK5CYII=' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed ;\ncurl 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAcCAMAAAC02HQrAAAARVBMVEXv8Pzt7vvf4fnQ0/bP0vbO0vXN0fXBxfO/xPKhqO2fpuxgauBead9ATdlBTdo/TNk+S9kiMdQgL9MeLdMRIdAQIND///+WrJIIAAAAF3RSTlP/////////////////////////////AOZA5l4AAAB9SURBVCiRZdFBDsIwEENRF0IKhdIQsO9/VBZNook8yyfNxh+6HXxfFQ+pkvysk+0kyd8jGmmIlyPy1xByhBwhR8gRkqRcIp6mJWKzCbtpOTpuw9CNw9oWJLf+G6nZJdJpqUYSnAQnwak1mkh4Go1GgYRi1BrVu6IpF+4pkv4IYSk61xAM3QAAAABJRU5ErkJggg==' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed",
-			"settings":
-			{
-				"buffer_size": 31493,
-				"line_ending": "Windows",
-				"name": "curl 'https://www.0.freebasics.com/https/intercrac"
-			}
-		},
-		{
-			"file": "/C/Users/Alien/antipode/b",
-			"settings":
-			{
-				"buffer_size": 4,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Alien/antipode/anticurl",
-			"settings":
-			{
-				"buffer_size": 88957,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Alien/antipode/links",
-			"settings":
-			{
-				"buffer_size": 93126,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": " curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBold.woff&iorgbsid=AZxOuc5oHI8mCC1ojb-BCEVYPgwwQr0QcgZcWPtvta3y-wlilwXiS7T3enkvjBIrPI_hRdvq7BUQJ7j2V6asZjyC' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-SemiBold.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Light.woff&iorgbsid=AZxYHbfckraAvbxUwhCuXadlOYZsKuJr8nIH8d47MLQ4qBy5TnSS4_PZ9uUJqmBSbvjNq7iNr2_QzBXSZiKPN3A4' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-Light.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBold.woff&iorgbsid=AZz8QZFxsmA1TFuvL5mMgUW9yOW8UXdk0qzekBYYyJe1TuVjCDQ0kZmObbDle6hgqlV6pTuwUWy9XnobsqzSz1DS' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-SemiBold.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Light.woff&iorgbsid=AZw11iSwU53MNRYfcfCGE3jH2T9Vgi_A5DsAMXtRvN2RepmwBe-99jVa4tNHJo9qnbu7-3o3ds44cQkjJHX9aP9i' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-Light.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Bold.woff&iorgbsid=AZz8pjnHJ90QD6o30ES0LjVofSNLbtBW7lCM5u84a1qYe2D6tS7MVfT9ROSYm17dDqKP3yXGJmE1EZ2FWG2k03F0' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-Bold.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Thin.woff&iorgbsid=AZywvn7Ojub1QEQdSKYDchkNMUrssaKa9AP9XEyrHkJdutMvwbQ5MN0gHnYRsTL7FLCWs-vj01oHNifDBNPCJaD3' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-Thin.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldCondensed.woff&iorgbsid=AZyvUV6HvSJglGrlN4FYiDvG4Wsy_EbGh_DZ2F2OwlGzd85H5W6LYFQ6ERPp97kfoS2zBzn5PsbhYppybrIXPjlZ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  Antipode-SemiBoldCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Light.woff&iorgbsid=AZwuAEizrMLinojtuBRS7T2iXRnXhuHm-DsU9XizLOL9SVIFKNVN4bnObJhr5U5Fg_a3vpYwNNfHffSKGn5I1a2m' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-Light.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularSemiCondensed.woff&iorgbsid=AZx4ddZOt1rsQtlYws9tEYLQU1O62v4B86brtM8KsJ6kdkfevkIzxmf9KbRfA_I73JQWRZIBk2mTjlFt8SxYHSF-' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-RegularSemiCondensed.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightExpanded.woff&iorgbsid=AZwm8n4BdESsNxB9C8c3nWcdjNWMBguNT897mC9uek22x8b-opVf7015MA2ZuRRucEyihRWQtou-QBJuUyB2IHm5' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-LightExpanded.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Black.woff&iorgbsid=AZypWeyDAYBUIXr9b9oykuX1xeqLn27SyH9LnZsbfPNlDu0MzpwZDVPx2fm7AR4LWuXcJyM52ky9WWR1TI9x29HG' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-Black.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightCondensed.woff&iorgbsid=AZzSPg8D0aozzf8l9Ekv8andWo83fwxrDsoSi8B_xrj5hDFANE3z40I4e_57MITf5GwjHH73mU2mkpZeKOmCnWko' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-LightCondensed.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightSemiCondensed.woff&iorgbsid=AZxq-gabH7un0MK9d3DsZRacm9bLCulqZ9f7rBq2Y4dmhxkctp-0-ucUD_nozW1FXQjd0DwDdpGZ15QPn2liyvHF' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  Antipode-LightSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularExpanded.woff&iorgbsid=AZzJb66onW0DnDjM6_kTFVp3mglJP4PQoT2kbFRuSKhaZn1pdQo88Htpf4QMg_Vnbhag_hbQ_f9rwLcMsGsE9gsu' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-RegularExpanded.woff Antipode-RegularExpanded.woff\nAntipode-RegularExpanded.woff curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBold.woff&iorgbsid=AZxUrk3ZGBR3aUifnPmyyi8uV5jfc2jbzZ4nukuzc-g6nk5ar5V-h2O9k1UuFXe8ogMW_cgKX_rd1tkFisHfHGv8' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-SemiBold.woff\nAntipode-SemiBold.woff curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldCondensed.woff&iorgbsid=AZxwDou8pEF3jp3SwMDQNKtHyIGroqtJ1rsu0WQnRA54VIps5o9-WWO0tRekLi-JPpHxyqlZjZfVH9xJhatskww_' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-BoldCondensed.woff\nAntipode-BoldCondensed.woff curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Regular.woff&iorgbsid=AZwYsjTDMzSEyqf6GK6E4lWZehY1y9eOxGPl124-kGUmw8GZBPAZ4OdH4i14DGpZTiylr_2uruEDV42-mnxCFtvv' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-Regular.woff\nAntipode-Regular.woff curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumExpanded.woff&iorgbsid=AZzOFRFxKoBh-6aLIKvMVEaFLbW4Fs_BQZ3t7d7M7m854qntZo9w-PtCvn9yXbsOdGnGDFU77G_aZyVo_1bYg7Du' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-MediumExpanded.woff\nAntipode-MediumExpanded.woff curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightExpanded.woff&iorgbsid=AZxceMuOynrE3GrlJOvwfgNIFUH2NzvaDRZswnqH_rICc2v4E82Mb_pTCFPOlYlFTjuIWUbWtgLxF10l3hFHfear' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-ExtraLightExpanded.woff\nAntipode-ExtraLightExpanded.woff curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldSemiCondensedItalic.woff&iorgbsid=AZzvXAi_xn1vB1Gz2w1opZ9qmJwCIZ8qhBUg0CloFHNWR7IgG1UCQrj6KtReLIB3m48zHU293woQmwTVmlrK7m23' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  Antipode-ExtraBoldSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightCondensedItalic.woff&iorgbsid=AZzeYEbITGRi7cGgngcCZz7ae2EUFej48z1aKh-rGpY_hUyHWjC8h92N8H8u9ENJjAn3VwXudIAVinA0PoN6R643' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output Antipode-LightCondensedItalic.woff\nAntipode-LightCondensedItalic.woff curl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLight.woff&iorgbsid=AZypxARgeLhejA13lk2VzMiF03GwW18EkPoXozDsDzs9gmcaMq1H8H_zfsu2_lUeaGAKDIbxO_LUM3dhWdk_L5b5' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  Antipode-ExtraLight.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Medium.woff&iorgbsid=AZy1LjxZQM8QWvwHMzzuOCKuKTtGFDb9kPJsO3Rh6p3v3XPSBSq60AtprYep7AhuN0w5IucE7Oen7qMZAHx1n-6u' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  Antipode-Medium.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBold.woff&iorgbsid=AZz8nIw5mcrZcEZq2Aow54UO7aRy5VIftyWu8IIaEM1FHOndW_5JNBLlwcnqop_r6SMxzawXFfvciDTRZSv5dPlT' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  Antipode-ExtraBold.woff\ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinItalic.woff&iorgbsid=AZxWTaYPWQiTEQfNMo7MSZTp3zYRyNvQ1zannyclKRL9cU7rdMcDMjtBW7-kBUJGMT8fYvZW5kPkBzwC2iTevKO1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightItalic.woff&iorgbsid=AZz0JaYtZVV9p46bE28RzgS941q5W9dvsAWL7_s8ZYnwNpoy6uaDtm-UUFIAZOjqJAuEjwTRlSVMD1oNfbU3Bak7' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightItalic.woff&iorgbsid=AZwGYyNz3GslY8k2y_jiCni9S_E9LLOHM18Hvnti6oTj8v5kPKuLsAB8ENSbGkmnndD_tSR1whC33rhtXWCVRAuR' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-LightItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularItalic.woff&iorgbsid=AZynP9Icq0vmwUtDHgxZNUeZQMONEtCuZg1Qq_kdY1lqPvLdurikwXCtVZTfYp8B0X1O5kShy4VLyPeBp-ErquJC' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumItalic.woff&iorgbsid=AZzLkr_jt62DGa-jpJyxT5YTEyAMA2oTLDgz9QrWkl_elMA5a4V0cK4mV97EijdM1N1R-Y6VNRqDhIhIdP_QpEQm' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldItalic.woff&iorgbsid=AZxykK9hNdNf29RAtjokTUwLE4i9bBKjPWmH7JaKLbg4vRW70gRCTUNtbfTbNzG9Se0hTI11aBBTG-zIGEmT_xQZ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldItalic.woff&iorgbsid=AZzERmdxXH8CbwXMeFeDoc4X8gwjiAwIa7UdBXtOAno6Dlba9nYPcnKwv36kYks7xuiMyroYxtiAlHAR5yJPFAmF' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldItalic.woff&iorgbsid=AZw9Pk_pHU-S9maFCKY4S_OIVx6a7oC4e-5LpnE96WC4E6oF14CICHB-sycn3OhT7x4Ds9WVvXnDLl_9ooEw_lkw' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackItalic.woff&iorgbsid=AZzdo0SNrrkXIiEQhPwi5s_nOnlLU5AtCrgVncTcWUMFXnVaJHYrhfnm4hma2H1VgkCECyZ9yV78n_bgD4O5vf4z' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinCondensed.woff&iorgbsid=AZyiNxlze6DYmgg86V7hBmIrVq33Ho4z456bq_lSxuJj48NPNnc4GsAXdPEw92Y27XX6LatEgSFXFdeKMA49nMMR' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightCondensed.woff&iorgbsid=AZytiFRUk_7Nf9PKVDsgLo8EjamFPoAtbuRx4S4Fe1-Q6LdBe8cqtIJW6sb05Jd1Xy4yK882zv2X623YcKjIBnC7' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularCondensed.woff&iorgbsid=AZyTyztaqV4AhddP2Qzlyhf8jOvGW5fGlR-UBqS-FMX8rloDNLvN0WVjCB3sNUjr5l3gjLi1IV94vRC4nUJ3v6wI' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumCondensed.woff&iorgbsid=AZxUupb3SDuqwt8kug2HZOXplmM5wFshgjgOF3dBsxyXT7aXFL2NOZglvqdjnlqjkYlnEvX5jp5F2n_RyYt8BniX' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldCondensed.woff&iorgbsid=AZzetM1Oy_trkcc3hDwlv8G4N_1fk8vovE3zyjgi2Sb5hc4HhBppLKu6levCOkUSqImU-j38sMIS14_A3BwZD2X0' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackCondensed.woff&iorgbsid=AZxhXX8tJdQzcmevmOWNbbXroVGUL9pF3SzKaUhnMx11YBjlj3J-tCbewQxwYgPT9UxxfymS_j0HOEYCqIPKDZHy' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinCondensedItalic.woff&iorgbsid=AZwpcM-_Hnc_fEUy6KxLGGDgTwDmAyptUYaq_HIty78XtD-HjeMQpD9JAcOWAB79vo2ALgm_DQjL7-CWL1jC1rjb' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightCondensedItalic.woff&iorgbsid=AZy7g9-WcUZcfBsLdWHDcE2EByBBW3WtmjqldzIN8ujkKw-L-jN5SAMbRbJl8gR3PsNjyFtV8CqeKYOy6g1yUTur' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularCondensedItalic.woff&iorgbsid=AZz8sqr6wyUx18pntnOuH3PAQKNoe0V0kTktv5UpHiVpLO103aRgKX6riTDDNeGpAMkDPEHhgIjudW4r2-z-Nr-j' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumCondensedItalic.woff&iorgbsid=AZwkoS5XMOplWlYHHP9xdY5RuWneQynvWkqqUzm_0K2h1XJWRQBXXZAWaSgMIR0F6AZ7bDCxwx6WsAmL_dbG5rH7' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldCondensedItalic.woff&iorgbsid=AZwQpp4zPshOYDmeFy58_idNscbiihW3WOaMm7XvqD_Yg333JDNGILpzZZ8gSnoQlKReq_l3n2V57EyezWLxbTQ8' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldCondensedItalic.woff&iorgbsid=AZzRYqdbsknWYhWSXrPuTQePjHVpuCuh2zW0nNn_l96ZOlhKW3r21mVBut_4hpE0NWw3h3K0Puw0YnvvNVVvtuEJ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldCondensedItalic.woff&iorgbsid=AZyYjJkix0N3v-r6y5LT28kO6BXDciUSyBDce9Mvb5WbN3Xw1P2jqTiZPwhD600qiEqro85khEqnVq_4Cp68N6H2' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackCondensedItalic.woff&iorgbsid=AZxm8goKG2he_WkRd58NpPhrAri4b1C_O1aiy_o1Smi8S-peXlSGr4fiUZx36AHhUOmarJ7sg1dgu2rneZCmlLGA' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinSemiCondensed.woff&iorgbsid=AZzaCVvzEVwBF6uR7020JkF-vTs5sP11fQfAltzDQBZsUzxZLeSu4lWGP3fOwKor5gpsorIqXJCyOJCL-SLz3qCk' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightSemiCondensed.woff&iorgbsid=AZy3R2T-K_f7Oo9W9o2rSLQS0zrR_PqT-v0req6pb5lDojfnXYwd29AyB7OmI0Gr7GOXHpa1Ch_NHaTIrRQYch4x' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumSemiCondensed.woff&iorgbsid=AZx55X8EQAEKUNgVKWlO8ssEOcNFepTVDH5hzgqMt2aC4ZIrEVusbToMGffIMwOGhvo25HgTWPePFBPLF0dMxz7v' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldSemiCondensed.woff&iorgbsid=AZwYZxaWRBqv6wusU_rUqm6ll6qaRlsbsiwKiSOEtw_WYCVAbF9Ad16PIfQFAahD870nXEch7ams7eY3tHFzaCzQ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldSemiCondensed.woff&iorgbsid=AZxg24eL_2BQQ1xT0ahJg1SzHIN44PdoI2lE4XsUpkbMM29fWRQZdWRYNeCPMaGTZqtxui-UsyeH0_TiEfMolMqQ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldSemiCondensed.woff&iorgbsid=AZwZGh0bwyi6wt3Q5sudogPvlzFqnZO-_cSeL5s15vtrzRDATs5ZAnNPybwiJi4-F4J8upBmCjulg8XZcxpytD9S' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackSemiCondensed.woff&iorgbsid=AZwP9d5-uBKSbcHqvqM7PDtk78IXkLRdYW4hW2AzlzMLMLw19cZ3Uzq7LK1vTOA7jUCXQG8FqSwtPFE6xRDkC0Om' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinSemiCondensedItalic.woff&iorgbsid=AZyO1N7tYp30z26H65nob8uIfU5B1wijUE_O7Ju6Gpwb-wTmqfk6KmU1-62o4V4Bb60jMmrG3fWkNUJjX7EooX83' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightSemiCondensedItalic.woff&iorgbsid=AZxZXhRSuChL6x9N7iRVcJPdhhz6xo8QJz66bOQy3FLuAglNDd9pmiZRyVN5gzU7RKp7EQfv1SueYC-EMqAUQuTk' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightSemiCondensedItalic.woff&iorgbsid=AZzbaaGJnIqTR61GgXeLtNhHT9ehzmdw15Uc1s45nczGXlM_R29HAeAMLNjeUT8RBBncGWKxKFUMGFIf5ScFlAFE' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-LightSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularSemiCondensedItalic.woff&iorgbsid=AZzHE4a_5HP4tQEdVKBqtXPXC98eWgPdInjU2pqeI48-veGVAxke_iACUgdKxrYospNJ2O_AlfduMqehqx3Qw8OO' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumSemiCondensedItalic.woff&iorgbsid=AZxEdAOIQCdNEbPRDjmJ79q6ZtGmgDcHnPvRheD6Aqs35d9JDfKAl4HXmYEwssaBjOh7A5qYQKEBwoEWhKJ-ZMH9' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldSemiCondensedItalic.woff&iorgbsid=AZwVQEcsq9HXAPTXT1kuPTcZ_ZeVUsD8ARop7vRL5MiW0rP_9yabhUR-cwfHOTPv2Z9rsrTifwU-UYPpQOW1EJ3f' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldSemiCondensedItalic.woff&iorgbsid=AZwnba904gpAOfpnR6DirN_sd4fytrBMsKK7D0IWEXenPR0CmyilQ7668liOtMVdaQhv_j-VhzQp_gsNhqgaQKaP' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackSemiCondensedItalic.woff&iorgbsid=AZyQvREeOLx80_Sok5j3dkX2InjOLILMleZg7mo2FY7s5Cb8URMaOHsgGDegGWzC30mxN7gLR8kRpjSgvNG9w0Ea' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinExpanded.woff&iorgbsid=AZw8OxW3DT4Vq2P2NxIItVtWOUdJIQ9dTv2EvKht-K7ukAOa5a0YFxw6bqddsWBf04AOblOdPHqOWppZcE22g_iC' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinExpanded.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldExpanded.woff&iorgbsid=AZykY_oLyxsZHtEUSx19oCueAAQkEyRgL6lwcpKHPGPJfidcovSAvwR2PRMdzUXow8IY6nQnAlQeTmY6I-dyCUZ9' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldExpanded.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldExpanded.woff&iorgbsid=AZxOJJ2-qZpmE-Y0i74F1PNc_0XoHUs9u25haeydxB9PQE0yViM13KWwbfnawSi3_2uhBzpJQ6MHBag0-9fi15UZ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldExpanded.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldExpanded.woff&iorgbsid=AZzwoUDZaCVDZiOktq4MD8bSTPY1A2COVM0rozMhevC2_RjiU71QSOSr-ugv9EnquItDKQn3j-9OsPBjNg7tzGyh' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldExpanded.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackExpanded.woff&iorgbsid=AZxERsb0M3AJpK6a5ukbeOGDJ5wohLPvUwVp6fdswQ4n7bMwHhGVN2J7SqT1gTNXVkH8X9yuGD8QbJtIXSI-iGTk' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackExpanded.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinExpandedItalic.woff&iorgbsid=AZwAgdAkoolclTKxaZPbTW1KQo25E6bzch0Nsbsxcm4yAjuenOGB_I26EWz0BWt_LcNK_vERoSzSUmuCLVphv4VW' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightExpandedItalic.woff&iorgbsid=AZwV-w2I_b5CQ-9v_5Kn854B81d3YpK9Vo2hDQ7uyWofWFmxm25VYLjP468X_sIhapoNyJRNpw1oGH9nW23sTB7R' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightExpandedItalic.woff&iorgbsid=AZz05vSci51aBWd1N9jyAlf-0iMb7xYuJxv7rw-H-OKjv-8hCfHTdDl4cofDRKD4tyAx0yL0o2pU4ZGHIBD41es6' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-LightExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularExpandedItalic.woff&iorgbsid=AZwpbTK5nuWz-rVNIQCKpkD6ZeGQP1KygmdJl50_WrDYG1LaAZe3gAMWCJAqwBiAScq-zAIKqnlJAcdHGZZBV9qx' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumExpandedItalic.woff&iorgbsid=AZzsFqYXwGfKBqJO23qboiHIFiJYWFgelS3Q6eWoJrdPZPf70LLU18pummHyvsrrf1Y-57XKOPEx-x-2GHt1WRjY' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldExpandedItalic.woff&iorgbsid=AZwIBbLS41JLgHJHIC5YEynFM03bETijOXNe8atlhYRJkd_urTlb5J6uKxL2BchrTH0ROg6Ui2HwLaGFisQxUtYk' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldExpandedItalic.woff&iorgbsid=AZxuI6lLPjDVCeJUAOs54Lue7PYeSwPOs8BLgakH_482GSoYtfVTzLj3aGJhHoUMBwHd3mMkmEjxtwPJgjq7gULn' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldExpandedItalic.woff&iorgbsid=AZywNOzKucLxl7vc8S6QcqHIAZFgcUzbySu0Dj5IngllT6Nmjk4MExjuBoaeX-j1m4mNz8_0KVnJ_ctKRh492vr2' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackExpandedItalic.woff&iorgbsid=AZzLgEKUqKKjNnImFdcqdWq_VMeVfyyF9abENh5Za_ksvBfZaiq7mKG9DGsgdP68Ziq1pXEOLtrui10pJq3YpQ9N' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackExpandedItalic.woff \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinItalic.woff2&iorgbsid=AZyRNORrIXnvMhZj6kSdzLZmSnoQ5z782jyD6KeC9I9d24I4TxS7skkbFwD6iO8wOOb8tk5atdZfy34_tAT2BNXv' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightSemiCondensed.woff2&iorgbsid=AZz7X4qiNzWjDfzoheXXaxIl43IUdHS5MMPV53wpRW4D9Ce-nc5unmxkgMBfAyXT-3hZP9agTD4QQalubViJYu9D' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-LightSemiCondensed.woff \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://0.freebasics.com/service_error/?error_type=connection_refused&message&p=1&no_header=1' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightSemiCondensed.woff2&iorgbsid=AZwIuRao3GURwyP8m-HQI6Wm1Ojrpvj13tAR88Dc1SRYqW6QDMX9d2_AXM5mqtJTzd9KtWoYbe4aLuHRWYsTxeDc' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinCondensed.woff2&iorgbsid=AZw-zq6wUvnx8CcVS0LLuGsP_1wlPBL4mAxY-ttR2LrCMNsLkokctBiktaKxI5npIU2ITrbQTN8L1AdHSGGYBJWx' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightCondensed.woff2&iorgbsid=AZxcXka7HSL-a5-Pgc4sN8WOnWYWv8ZHRdlESAtFyy7-5_Gftq0YQX8Fv0ZIPxbez8K1Mvf4GpHpwOWvce2dWGmb' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularCondensed.woff2&iorgbsid=AZxm26VGRAvhePtcGxzzraLadiAQrqqX5OCCbq8peXSVp4xukYM1BtegaaNeXb_PWQECiFaFNYc56J8T6nYQSsY3' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldItalic.woff2&iorgbsid=AZyii-XhbKshY6WUYZMwvE9QaOzWdhZv0IQshFRr2VlXCdtnxLF-t6zfzRIBs4prXgk9szfwWUWT73SuGni_PHeO' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldCondensedItalic.woff2&iorgbsid=AZyE6jj_3r2qgNJQjil5wFdUazym5q6vQnjBJQ0mQBElvX9kVuLVRyv_y2IlsYEk7WxJZnn924k-xyqe7DXN_ubv' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldCondensedItalic.woff2&iorgbsid=AZxAXo65nJ4JDG4akpgM4HkUvi5C8unw5wjAQ7ptYCsdQhEC53b8qTLkuByOsxzCoAhsjkiIna-pYIlQ-WHEMy6J' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinSemiCondensed.woff2&iorgbsid=AZxf4Gs0ql1TQ1pGskLdUqkk57sZfyqSt1vz8IublMyW80ddc0ji3cCwceYDdLUjtAwc34_bWV7zWBSUt8zguX5t' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinSemiCondensed.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackItalic.woff2&iorgbsid=AZwduVNnus09hw87XAUJsxiufS8iSEoefRHLGERyceSpFqT-bNX0wOqxI-o2p6C2m2V-8Xv4OL0gj0nxntK79ftR' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightCondensedItalic.woff2&iorgbsid=AZx8BShA6IjDeRN35LgsttqdU2VB6GsB-9fPHahlkUXXEX3j-x_hXItCLlBBL0srIQ37mr8cSj4YC7BG_vEo64jj' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldCondensedItalic.woff2&iorgbsid=AZwkQ2wK-x9C0fNJPq7SsFeJUncwKaRHogTWvrbQ17D-rkkrVfPaRxuSQ5vA6e9Hzr8Wz6tDRbebMpwIm9q_BF0z' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularSemiCondensedItalic.woff2&iorgbsid=AZyGJZ69JodQw3tTe8GeU70qoS6pBz09Sa8jDRmQlL4b_RlNHHJV6K0OR0SeZA5gLZJ3sfjQdjaL_VbWqXsXTkY-' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldSemiCondensedItalic.woff2&iorgbsid=AZwmI2Ip-AO5khRFfbLyvLUMp0w9E-MOsWmkhvDJIstifjHbdRw004llhu7XNIpqn_pYn70fczGCK63O4q-EJrEM' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinExpandedItalic.woff2&iorgbsid=AZwhsfOtZIThtYKhlO3vnPVSNgQRNUcjd6Nwah1Gp0sGgQckYHEvn7NXl-IHuRO1q4VqqACCZNcbijspR2lhfyW0' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumExpandedItalic.woff2&iorgbsid=AZz9_S4e-nu8wjtym3gH1dG4uyG0jnKxeUxOzDU5EbZLb22M5F_Z8c2qQF96WWY_Omn-KWMlsRMPMUAzXbOS8erI' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBoldExpandedItalic.woff2&iorgbsid=AZxh9J3kMoQEH52mfam-dCG5OoyitzuvhhAHj2WJURblRFoML1kBTbXo0OaMSLlMz7xey89PKWp8YlVsovNAQg42' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBoldExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BoldExpandedItalic.woff2&iorgbsid=AZySRJkNvyAcyrJ3xc2VVDlfvuWJDdzTtM2XNNGrFStvEKMHQlFb4pOkzRKNp8KEn0PtokaMQLNVGyFRKIiBVXAP' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BoldExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraBoldExpandedItalic.woff2&iorgbsid=AZwMd63EXAPnRMTh02iZPg4SvEqYaLtFdLNxfxgNsDhXuCmeBdx8bJajj9HCQ7ya6l1_pS029WdHlS1KNK-0_1TR' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraBoldExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ExtraLightExpandedItalic.woff2&iorgbsid=AZxGUaAj1o47OZZTEpaNJ_v5TIsWxsqpdI5T3IwKKtPoCh5qaCZ7YOXNKA65rIV6RMWD_i_eoGpuvC_Fo5pvsH8m' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ExtraLightExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-BlackSemiCondensedItalic.woff2&iorgbsid=AZzukMIac5efjoubcekxA26Rm1T12S9oixPQbvmzjlmE7_Jf5K6A-CwFhPfvcnyadGTTYXQXcpIl-VARonIcuou3' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-BlackSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-MediumSemiCondensedItalic.woff2&iorgbsid=AZyWO0GEAocXcyxyztwKkY46FJfQq64mlV_ZDOo29ZLdQdKIoYhOcshmZq46PBJd_yZjbxH2h_SYK6nzD1wb6ejX' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-MediumSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-ThinExpanded.woff2&iorgbsid=AZwOxcMCEZdgnW7ifaq_gA7LXsEQtY3udpTn8ihQXUOPBauKqnXoqZeVHIPNkFJoFHB6i-QCdLZOuDmuqRXqeenJ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-ThinExpanded.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightExpandedItalic.woff2&iorgbsid=AZxw1SP_iXQujeKpwCmddqoQ58gR8ABjbo8Kee6hs0g_-xPSQJjEACoUiSEd1nY35CpYc_GMUw5l1CeVZ4AlF4mJ' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-LightExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-RegularExpandedItalic.woff2&iorgbsid=AZwlg79z49hZGz1Gd2tGHzjdunWiQu_oRIEYBLbSzS_ebGNkLOP6LG8diZ1SpFeo5tF3iMR5iA1Gz2R1nT7wKtbj' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-RegularExpandedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-LightSemiCondensedItalic.woff2&iorgbsid=AZxtICHHaIsn7Xl69DSF1ngluxYOOzrf4SY11CQ-OTcyktbU0lwpO-nP7fBSmHySEUW2Td76H4_tm-oaUilXLf26' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/fonts/antipode/' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-LightSemiCondensedItalic.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/' -H 'authority: https-intercrack-net.0.freebasics.com' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'user-agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'dnt: 1' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3' -H 'referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?iorgbsid=AZxAeSisYpJ3-XYLfpECc9InyR0GESOtLBBTxx4OiJjUa_yAN29OupRPA1KLrRsc16FERoeroQ1Dw3sJ6awkg9an&q=s-ings.com&go=Search&qs=ds&form=QBRE&miniProxyFormAction=http%3A%2F%2Fwww.bing.com%2Fsearch' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-US,en;q=0.9,fr;q=0.8' -H 'cookie: datr=33q5XXMRWWiq5WAeeZoAH7h6; fbs_userid=2695231503854902; ick=ks9OnKgQWC8AMb93WgF8r3' --compressed --output  ; \b\b \ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/mEabSZz6TxC.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeEaa6X0mkuKQeybs62uZjFkWMeXSRLre0Qeuo91rIlXx5rdWrwEAMAhzSoiOfxBfB-D8h8nxEuyxUcuG1vDOsGt-99rdW5XcODhW06trF43xw' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ys/r/VtXUJax45D0.js?_nc_x=Ij3Wp8lg5Kz&_nc_fbs=1&_nc_eui2=AeF3OF-qQIk6dUkDCPbeKtXuOV5qG70fFSwNQ7Sls2uMYP_AtpIlTRdP4yp9vTW2iGAHkhYdRD4TTjTCV3bRZjwVEZL32rIfEaS9f0SThFqf7Q' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/shapes.gif' -H 'Referer: https://https-intercrack-net.0.freebasics.com/free2/index.php?https://www.s-ings.com/' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/philippa-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/svenska-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/golumpki-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/ed-sans-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/vernacular-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/antipode-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/projects/asterisms/asterisms-reveal.jpg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/projects/console-log/console-log-reveal.jpg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/projects/gordian-knots/gordian-knot-reveal.jpg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/typicons-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/thumbs/microns-reveal.svg' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-t_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/img/projects/illustration/illustration-reveal.png' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\b \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-SemiBold.woff&iorgbsid=AZx9PI1B99FTpgTP5wPr65NGvcaE23Cn1n6M2YKxF_Mx9m3SQzANRKPV6_aBewZe6ntGw4MuAgFXthfPoHy3XsFw' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-SemiBold.woff \ncurl 'https://https-intercrack-net.0.freebasics.com/-f_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/fonts/antipode/Antipode-Light.woff&iorgbsid=AZxp3HfXLahR-hEcZFM4RtvHT6BA86MKRiy2RhiBCnMzUKWu6rnl3I6Fs25dAumV1Y4FgpmgOLoQkdB_pWGd1jd5' -H 'Referer: https://https-intercrack-net.0.freebasics.com/-l_da30a3bdfcb5c0093017f92238b5281fc8e9b4b9-/free2/index.php?https://www.s-ings.com/css/app.8208bcf.css' -H 'Origin: https://https-intercrack-net.0.freebasics.com' -H 'User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36' -H 'DNT: 1' --compressed --output  ; \b\bAntipode-Light.woff\n",
-			"file": "/C/Users/Alien/antipode/links.sh",
-			"file_size": 93126,
-			"file_write_time": 132219673933512416,
-			"settings":
-			{
-				"buffer_size": 92478,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/stylus/high/notifs.styl",
-			"settings":
-			{
-				"buffer_size": 1275,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "/* Notifs */"
-			}
-		},
-		{
-			"file": "/C/Sites/vixc/css/notification.css",
-			"settings":
-			{
-				"buffer_size": 1195,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/stylus/high/dialog.styl",
-			"settings":
-			{
-				"buffer_size": 289,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/stylus/medium/typography.styl",
-			"settings":
-			{
-				"buffer_size": 919,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Sites/vixc/js/main.js",
-			"settings":
-			{
-				"buffer_size": 7407,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "docs/medium/layout.html",
-			"settings":
-			{
-				"buffer_size": 3849,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "manifest.webapp",
-			"settings":
-			{
-				"buffer_size": 703,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -830,44 +708,60 @@
 	[
 		"/C/Sites/vix",
 		"/C/Sites/vix/css",
-		"/C/Sites/vix/css/stylus",
-		"/C/Sites/vix/css/stylus/medium",
-		"/C/Sites/vix/docs",
-		"/C/Sites/vix/docs/high"
+		"/C/Sites/vix/js"
 	],
 	"file_history":
 	[
-		"/C/Users/Alien/antipode/anticurl",
-		"/C/Sites/vix/css/stylus/high.styl",
+		"/C/Sites/vix/css/stylus/high/notifs.styl",
+		"/C/Sites/vix/docs/high/notif.html",
+		"/C/Sites/vix/css/stylus/medium/forms.styl",
+		"/C/Sites/vix/css/stylus/medium/layout.styl",
 		"/C/Sites/vix/js/bundle.js",
-		"/C/Sites/vix/docs/high/dialog.html",
-		"/C/Sites/vix/css/stylus/medium.styl",
-		"/C/Sites/vix/css/stylus/high/dialog.styl",
-		"/C/Sites/vix/docs/high/menu.html",
+		"/C/Sites/rstorage/.git/COMMIT_EDITMSG",
 		"/C/Sites/vix/css/stylus/medium/typography.styl",
+		"/C/Sites/vix/css/stylus/app.styl",
+		"/C/Sites/vix/docs/high/dialog.html",
+		"/C/Sites/vix/img/close-white.svg",
+		"/C/Sites/vix/img/close.svg",
+		"/C/Users/Alien/antipode/b",
+		"/C/Users/Alien/antipode/anticurl",
+		"/C/Users/Alien/antipode/links",
+		"/C/Users/Alien/antipode/links.sh",
+		"/C/Users/Alien/antipode/fonts.css",
+		"/C/Users/Alien/philippa/font-stealer-project.md",
+		"/C/Sites/vix/css/raw/font-load.styl",
+		"/C/Sites/vix/css/stylus/fonts.styl",
+		"/C/Sites/vix/docs/medium/typography.html",
+		"/C/Users/Alien/philippa/font.html",
+		"/C/Users/Alien/$1",
+		"/C/Sites/vixc/js/main.js",
+		"/C/Sites/vix/docs/medium/layout.html",
+		"/C/Sites/vix/manifest.webapp",
+		"/C/Sites/vixc/css/notification.css",
+		"/C/Sites/vix/css/stylus/high/dialog.styl",
+		"/C/Sites/vix/css/stylus/medium/buttons.styl",
+		"/C/Sites/vix/.git/COMMIT_EDITMSG",
+		"/C/Users/Alien/philippa/fonts.css",
+		"/C/Users/Alien/philippa/philonly.sh",
+		"/C/Sites/vix/css/stylus/high.styl",
+		"/C/Sites/vix/css/stylus/medium.styl",
+		"/C/Sites/vix/docs/high/menu.html",
 		"/C/Sites/vix/css/stylus/high/menu.styl",
 		"/C/Sites/vix/ts/bundle.ts",
 		"/C/Sites/vix/ts/tsconfig.json",
 		"/C/Sites/vix/ts/menu/menu.ts",
 		"/C/Sites/vix/js/tsconfig.tsbuildinfo",
-		"/C/Sites/vix/css/stylus/app.styl",
 		"/C/Sites/vix/js/menu/menu.js",
 		"/C/Sites/vix/js/ts/menu/menu.ts",
 		"/C/Sites/vix/js/ts/bundle.ts",
 		"/C/Sites/vix/js/menu/menu.js.map",
 		"/C/Sites/vix/js/tsconfig.json",
-		"/C/Sites/vix/.git/COMMIT_EDITMSG",
 		"/C/Sites/vix/css/stylus/bundles/app.bundle.styl",
 		"/C/Sites/vix/css/stylus/bundles/ui.bundle.styl",
-		"/C/Sites/vix/docs/medium/layout.html",
-		"/C/Sites/vix/css/stylus/medium/layout.styl",
 		"/C/Sites/vix/css/stylus/bundles/omni.bundle.styl",
 		"/C/Sites/vix/css/stylus/variables.styl",
 		"/C/Sites/vix/css/raw/bundles/omni.bundle.css",
-		"/C/Sites/vix/docs/medium/typography.html",
 		"/C/Sites/vix/docs/medium/forms.html",
-		"/C/Sites/vix/css/stylus/medium/buttons.styl",
-		"/C/Sites/vix/css/stylus/medium/forms.styl",
 		"/C/Sites/rwarrims/app/views/attmg/weekly.html.erb",
 		"/C/Sites/vix/docs/index.html",
 		"/C/Sites/vix/css/stylus/medium/links.styl",
@@ -879,7 +773,6 @@
 		"/C/Sites/vix/css/stylus/normalize.styl",
 		"/C/Sites/vix/css/raw/bundles/ui.bundle.css",
 		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/User/Stylus.sublime-settings",
-		"/C/Sites/vix/css/stylus/fonts.styl",
 		"/C/Sites/vix/css/raw/normalize/forms.css",
 		"/C/Sites/vix/css/raw/font-load.css",
 		"/C/Sites/vix/docs/buttons.html",
@@ -946,29 +839,11 @@
 		"/C/Users/Alien/Desktop/ultralight/CMakeFiles/CMakeError.log",
 		"/C/Users/Alien/Desktop/stupidak/Download/B2G-master/B2G-master/README.md",
 		"/C/Sites/rui/manifest.webapp",
-		"/C/Sites/rui/css/dashboard.css",
-		"/C/Sites/rui/css/login.css",
-		"/C/grub2/userfiles/user.configs/Slitaz.cfg",
-		"/C/grub2/grub.cfg",
-		"/C/Users/Alien/Desktop/windows fix",
-		"/C/Users/Alien/Desktop/stupidak/Download/B2G-master/B2G-master/build.sh",
-		"/C/Users/Alien/Desktop/quora info",
-		"/C/Users/Alien/Desktop/stupidak/Download/B2G-master/B2G-master/GNUmakefile",
-		"/C/Users/Alien/Downloads/Compressed/duktape-2.4.0.tar/duktape-2.4.0/mandel.js",
-		"/C/Sites/rui/root/login-form.html",
-		"/C/Sites/rui/css/main.css",
-		"/C/Users/Alien/Downloads/Compressed/tkaleas-cpp-sandbox-9501619.tar/tkaleas-cpp-sandbox-9501619/tkaleas-cpp-sandbox-9501619/README.md",
-		"/C/Sites/rapi/.git/COMMIT_EDITMSG",
-		"/C/Sites/rui/.git/COMMIT_EDITMSG",
-		"/C/Sites/rui/js/.git/COMMIT_EDITMSG",
-		"/C/Sites/rui/js/nav.js",
-		"/C/Users/Alien/AppData/Local/Apps/2.0/9KH6WEWA.EP0/75PLRP0G.O2Z/manifests/wall...exe_83053643348597fc_0001.0000_none_a78a86c27d1a7acf.manifest",
-		"/C/h",
-		"/C/w"
+		"/C/Sites/rui/css/dashboard.css"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -982,6 +857,96 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"handle_err",
+			"stream",
+			"path_for",
+			"block",
+			"<(?<k>.+?)>(.+?)<(\\gk)>",
+			"url\\((\\w*(-?\\w)*.woff)\\)",
+			"font-style: ;",
+			"font-stretch: ;",
+			"font-style: ;",
+			"font-stretch: ;",
+			"font-style: ;",
+			"-Light",
+			"100bef",
+			"200",
+			"100",
+			"url\\((\\w*(-?\\w)*.woff)\\)",
+			"(font-weight: ?)(Normal|Regular)",
+			"(font-weight: ?)(Medium)",
+			"100",
+			"200",
+			"(font-weight: ?)(ExtraBold|ExtraBlack|Fat|Poster|UltraBold)",
+			"(font-weight: ?)(Black|Heavy)",
+			"(font-weight: ?)(Bold)",
+			"(font-weight: ?)(SemiBold|DemiBold)",
+			"(font-weight: ?)(Light|Thin)",
+			"(font-weight: ?)(ExtraLight|UltraLight)",
+			"(\\w*)-((ExtraLight|UltraLight|Light|Thin|Book|Demi|Normal|Regular|Medium|SemiBold|DemiBold|Bold|Black|ExtraBold|Heavy|ExtraBlack|Fat|Poster|UltraBlack)?(SemiCondensed|Expanded|Condensed|UltraExpanded|UltraCondensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w|-|\\.)* ",
+			"(\\w|-|\\.)*",
+			"(.* )",
+			".* ?",
+			".*",
+			"(curl ?)('https.*)(phil.*woff)(.*)(--compressed)",
+			"(curl ?)('https.*)(phil.*woff)(.*)",
+			" format(woff)",
+			"(format *)(\\(ttf\\))",
+			"(font-style: ?)(\\w*)",
+			"(font-stretch: *)(\\w*)(-)(;)",
+			"(font-stretch: *)(\\w*)(-)?",
+			"(font-stretch: ?)([A-Z])([a-z]+)(([A-Z])([a-z]+))?",
+			"(font-weight: ?)(ExtraBold|ExtraBlack|Fat|Poster|UltraBold)",
+			"(font-weight: ?)(Black|Heavy)",
+			"(font-weight: ?)(Bold)",
+			"(font-weight: ?)(SemiBold|DemiBold)",
+			"(font-weight: ?)(Medium)",
+			"(font-weight: ?)(Normal|Regular)",
+			"(font-weight: ?)(Book|Demi)",
+			"(font-weight: ?)(Light|Thin)",
+			"(font-weight: ?)(ExtraLight|UltraLight)",
+			"font-weight: ExtraLight",
+			"(font-weight: ?)(ExtraLight|UltraLight)",
+			"(format)\\((\\w*)\\)",
+			"(format)(\\(\\w*\\))",
+			"format\\(\\w*\\)",
+			"(\\w*)-((ExtraLight|UltraLight|Light|Thin|Book|Demi|Normal|Regular|Medium|SemiBold|DemiBold|Bold|Black|ExtraBold|Heavy|ExtraBlack|Fat|Poster|UltraBlack)?(SemiCondensed|Expanded|Condensed|UltraExpanded|UltraCondensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((\\d{3})?(SemiCondensed|Expanded|Condensed|UltraExpanded|UltraCondensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((\\d{3})?(([A-Z])([a-z]+)(([A-Z])([a-z]+))?)?(Italic)?).(woff|svg|ttf)",
+			"([A-Z])([a-z]+)(([A-Z])([a-z]+))?",
+			"(\\w*)-((Black|ExtraBold|Heavy)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((Bold)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((SemiBold|DemiBold)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((Medium)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((Normal|Regular)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((Book|Demi)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((Light|Thin)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((ExtraLight|UltraLight)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((ExtraLight|UltraLight|Light|Thin|Book|Demi|Normal|Regular|Medium|SemiBold|DemiBold|Bold|Black|ExtraBold|Heavy|ExtraBlack|Fat|Poster|UltraBlack)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"Antipode-ThinItalic.woff",
+			"(\\w*)-((ExtraLight|UltraLight|Light|Thin|Book|Demi|Normal|Regular|Medium|SemiBold|DemiBold|Bold|Black|ExtraBold|Heavy|ExtraBlack|Fat|Poster|UltraBlack)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"Antipode-SemiBoldExpanded.woff",
+			"(\\w*)-((ExtraLight|UltraLight|Light|Thin|Book|Demi|Normal|Regular|Medium|SemiBold|DemiBold|Bold|Black|ExtraBold|Heavy|ExtraBlack|Fat|Poster|UltraBlack)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((\\w*)?(\\w*)?(\\w*)?).(\\w*)",
+			"((\\w*)(-)?(\\.)?)",
+			"((\\w*| ).?)",
+			".",
+			"\\w",
+			"([A-Z])([a-z]+)(([A-Z])([a-z]+))?",
+			"\\b[A-Z]{1}[a-z]+[A-Z]{1}[a-z]+\\b",
+			"([A-Z])([a-z]*)([A-Z])",
+			"[A-Z][a-z]*[A-Z]",
+			"\\w*[A-Z]",
+			"(\\w*)-((ExtraLight|UltraLight|Light|Thin|Book|Demi|Normal|Regular|Medium|SemiBold|DemiBold|Bold|Black|ExtraBold|Heavy|ExtraBlack|Fat|Poster|UltraBlack)?(SemiCondensed|Expanded|Condensed|SemiExpanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((Extra|Semi|Ultra)?(Bold|Black|Light|Medium|Regular|Thin)?(Semi)?(Condensed|Expanded)?(Italic)?).(woff|svg|ttf)",
+			"(\\w*)-((Extra|Semi|Ultra)?(Bold|Black|Light|Medium|Regular|Thin)?(Semi)?(Condensed|Expanded)?(Italic)?)",
+			"([A-Z])",
+			"(.*?(-.*))*.(woff|ttf|woff2)",
+			"(.*-.*)*.(woff|)",
+			".* ",
+			"^(?!.*Antipode-).*$",
+			"; \b\b",
 			"curl",
 			"output",
 			"thinitalic",
@@ -1013,6 +978,107 @@
 		"regex": false,
 		"replace_history":
 		[
+			"url\\('/data/fonts/$1'\\)",
+			"font-style: normal;",
+			"font-stretch: normal;",
+			"font-style: normal;",
+			"",
+			"200",
+			"100",
+			"100bef",
+			"url\\('/data/fonts/$1'\\)",
+			"$1 00",
+			"$1 500",
+			"200",
+			"300",
+			"$1 800",
+			"$1 700",
+			"$1 600",
+			"$1 300",
+			"$1 200",
+			"$1 100",
+			"@font-face {\n\tfont-family: \"$1\";\n\tsrc: url($0);\n\tfont-style: $5;\n\tfont-stretch: $4;\n\tfont-weight: $3;\n}",
+			"@font-face {\n\tfont-family: $1;\n\tsrc: url($0) format($6);\n\tfont-style: $5;\n\tfont-stretch: $4;\n\tfont-weight: $3;\n}",
+			"@font-face {\n\tfont-family: $2;\n\tsrc: url($1) format($7);\n\tfont-style: $6;\n\tfont-stretch: $5;\n\tfont-weight: $4;\n}",
+			"$7",
+			"$1 $2 $3 $4 $5 $6 $7",
+			"$10",
+			"$1",
+			"$3",
+			"$6",
+			"$8",
+			"$9",
+			"$2",
+			"$0 --output $3",
+			"$0 --output --$3",
+			"$3 ",
+			"$0 $1 $2 $3 $4 $5 $6 $7",
+			"$0",
+			"",
+			"$1\\(ttruetype\\)",
+			"$1\\L$2",
+			"$1\\L$1",
+			"$1$2$4",
+			"$1$2$3",
+			"$1$2",
+			"$1 $2",
+			"$1 \\L$2$3-\\L$5$6",
+			"$1 900",
+			"$1 800",
+			"$1 700",
+			"$1 600",
+			"$1 500",
+			"$1 400",
+			"$1 300",
+			"$1 200",
+			"$1 100",
+			"$1 $2",
+			"@font-face {\n\tfont-family: \"$1\";\n\tsrc: url($0) format($6);\n\tfont-style: $5;\n\tfont-stretch: $4;\n\tfont-weight: $3;\n}",
+			"@font-face {\n\tfont-family: \"$1\";\n\tsrc: url($0) format($6);\n\tfont-style: $5;\n\tfont-stretch: $4;\n\tfont-weight: $3;\n} $1 $2 $3 $4 $5 $6 $7 $8 $9 $10",
+			"@font-face {\n\tfont-family: \"$1\";\n\tsrc: url($0) format($6);\n\tfont-style: $5;\n\tfont-stretch: $4;\n\tfont-weight: $3;\n}",
+			"@font-face {\n\tfont-family: \"$2\";\n\tsrc: url($1) format($6);\n\tfont-style: $5;\n\tfont-stretch: $4;\n\tfont-weight: $3;\n}",
+			"@font-face {\n\tfont-family: $2;\n\tsrc: url($1) format($7);\n\tfont-style: $6;\n\tfont-stretch: $5;\n\tfont-weight: $4;\n}",
+			"$1-$3\\L$5$6-\\L$7.$11",
+			"$1-$3\\L$5$6-\\L$7$8.$11",
+			"$1-$3\\L$5$6-\\L$7$8$9.$11",
+			"$1-$3 $4 $5 $6 $7 $8 $9 $10 $11",
+			"$1-$3 $4 $5 $6 $7 $8 $9 $10",
+			"$1-$3\\L$5$6-\\L$7$8$9.$10",
+			"\\L$1$2-\\L$4$5",
+			"$1-800$4$5.$6",
+			"$1-700$4$5.$6",
+			"$1-600$4$5.$6",
+			"$1-500$4$5.$6",
+			"$1-400$4$5.$6",
+			"$1-300$4$5.$6",
+			"$1-200$4$5.$6",
+			"$1-100$4$5.$6",
+			"$1- $3 $4$5.$6",
+			"$1-$3$4$5.$6",
+			"$1-$3$4$5$6.$7",
+			"$1-$3$4$5$6$7.$8",
+			"$1-$3$4$5$6$7$8",
+			"$1-$3 $4 $5 $6 $7 $8",
+			"$1 $2 $3 $4 $5 $6 $7 $8",
+			"\\L$0",
+			"\\L\\w",
+			"\\L$1$2(_\\L$4$5)",
+			"\\L$1$2_\\L$4$5",
+			"$1$2$3_\\L$4 ",
+			"$0 $1 $2 $3 $4 $5 $6 ",
+			"$3",
+			"$2",
+			"$0 $1 $2 $3 $4 $5 $6",
+			"$0 $1 $2 $3 $4 $5 $6 $7",
+			"$0 $1 $2 $3 $4 $5 $6 $7 $8",
+			"$0 $1 $2 $3 $4 $5 $6 $7 $8 $9",
+			"$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10",
+			"$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $10",
+			"$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $10 $11 $12 $13",
+			"$0 $1 $2 $3 $4 $5 $6",
+			"$1",
+			"$0",
+			"",
 			"\ncurl",
 			"--compressed --output ",
 			"",
@@ -1041,7 +1107,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1071,446 +1137,35 @@
 						"translation.y": 1411.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "docs/high/dialog.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1484
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "docs/high/notif.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 878,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								747,
-								747
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 114.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31493,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31493,
-								31493
-							]
-						],
-						"settings":
-						{
-							"auto_name": "curl 'https://www.0.freebasics.com/https/intercrac",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 7807.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/Alien/antipode/b",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4,
-								4
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/Alien/antipode/anticurl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 88957,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54804,
-								54814
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 15789.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Users/Alien/antipode/links",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 93126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1257,
-								1257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 2,
-								"tabSize": 2
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Users/Alien/antipode/links.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92478,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91094,
-								91094
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 47.0,
-						"translation.y": 2601.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 1,
+					"file": "css/stylus/variables.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								609,
+								609
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "css/stylus/high/notifs.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1275,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								841,
-								758
-							]
-						],
-						"settings":
-						{
-							"auto_name": "/* Notifs */",
 							"syntax": "Packages/Stylus/Stylus.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/C/Sites/vixc/css/notification.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								223,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "css/stylus/high/dialog.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								288,
-								288
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "css/stylus/medium/typography.styl",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 919,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/C/Sites/vixc/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								3074
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1020.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "docs/medium/layout.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3849,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								659,
-								659
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 133.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "manifest.webapp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 703,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1518,7 +1173,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1571,7 +1226,7 @@
 	"project": "vix.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1609,7 +1264,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 528.0,
+	"side_bar_width": 331.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

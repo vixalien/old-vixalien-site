@@ -1,17 +1,26 @@
 block-color ?= primary
 alt-color ?= secondary
 
+dark-check(n)
+	if luminosity(n) < 0.2
+		&, & > a[href]
+			color: rgb(255,255,255) !important
+		&::before
+			background: url(/img/close-white.svg) center center no-repeat
+			background-color: rgba(0,0,0,0.1);
+
 /* Notifs */
 .notif
+	transition .3s
 	width: 100%;
 	min-height: 2rem;
 	font-size: 1rem;
-	font-family: "Metrophobic";
+	font-family: "Philippa";
 	text-align: center;
-	font-weight: 200;
+	font-weight: 600;
 	display: inline-block;
 	background-color: rgb(237, 237, 240);
-	border: .1rem solid rgb(0,0,0);
+	border: 2px solid alt-color;
 	& > *:not(button) 
 		margin: .5rem;
 	& > * 
@@ -32,12 +41,22 @@ alt-color ?= secondary
 		bottom: 1rem;
 		left: 1rem;
 		width: 50vw;
-	.notif[closed] 
-		animation: disappear 2s;
-		display: none;	
+	&[closed] 
+		display none
 	&::before:hover 
-		background-color: rgba(0,0,0,0.2) !important;
+		background-color: rgba(0,0,0,0.2)
 		transition: .3s;
+	&[hidden]
+		width 0
+		height 0
+		overflow hidden
+		opacity 0
+.notif-block
+	color-calc block-color
+	dark-check block-color
+.notif-alt
+	color-calc alt-color
+	dark-check alt-color
 .notif-success 
 	background-color: rgb(136, 255, 209);
 .notif-warning 
@@ -46,12 +65,10 @@ alt-color ?= secondary
 	background-color: rgb(255, 106, 117);
 .notif-important 
 	background-color: rgb(0, 96, 223);
-	color: rgb(255,255,255);
-.notif-important > button 
-	filter: invert(100%);
+	dark-check rgb(0, 96, 223);
 @media all and (max-width:720px)
 	.notif
 		&::before
-			background-color: transparent !important;
+			background-color: transparent
 		&.notif-float
 			width calc(100% - 2rem)
