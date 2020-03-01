@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Privileged app</title>
+    <title>Vixalien</title>
     <meta name="description" content="A privileged app stub">
     <meta name="viewport" content="width=device-width">
 
@@ -18,12 +18,13 @@
     <header class="container" >
       <h1 class=""><a href="/" class="internal-link special">Vixalien</a></h1>  <div id="load"></div>
     </header>
-    <main class="container">
+    <main class="container" style="font-size: 1em">
       <div>
         <h2>Hello. Call me vixalien.</h2>
         <p>I'm <strong>Shema Angelo</strong>, but call me <strong>vixalien</strong>.</p>
-        <p>My name is vixalien, I am a multi-purpose software man.</p>
-        <p>I practice many disciplines: </p>
+        <p>I am a multi-purpose software man.</p>
+        <p>I've been in computer since I was 5. </p>
+        <p>I practice many <a href="/projects" class="internal-link">disciplines</a>. However, many of what I did ago, I don't do now. Currently I am not certified but I can do almost everything in my disciplines. </p>
         <ul>
           <li>Web design</li>
           <li>Web programming with Rails</li>
@@ -32,7 +33,7 @@
         <p>Plus, I make some <a href="/projects" class="internal-link">projects</a> from time to time although they are not well documented.</p>
       </div>
     </main>
-    <footer class="container">
+    <footer>
       <div class="flex responsive">
         <div class="flex">
           <ul class="menu">
@@ -60,17 +61,19 @@
           </ul>
           <ul class="menu">
             <h3>vixalien</h3>
-            <div id="hello"><code>&lt;&gt;</code> with ♥ by 👽.</div>
+            <div id="hello"><kbd>&lt;&gt;</kbd> with ♥ by 👽.</div>
             <li><a href="https://www.github.com/vixalien">Github</a></li>
             <li><a href="https://www.twitter.com/vixalien">Twitter</a></li>
           </ul>
         </div>
+      </div>
+      <div class="flex">
         <div class="flex">
           <ul class="menu">
-            <h3>Famous</h3>
-            <div><a class="special" href="#next" id="next">NEXT?</a><span><span id="score">0</span> Points</span></div>
+            <h3>Famous <a class="special" href="#next" id="next">Next &gt;</a></h3>
+            <div><a class="special" href="#hint" id="hint">Need a Hint?</a> <span><span id="score">0</span> Points</span></div>
             <div class="guess" id="cards">
-              <span>Loading, If you have a crap browser, this will never load.</span>
+              <span>Loading. If you have a crap browser or some error occurred, this will never load.</span>
             </div>
             <br>
             <div id="description"></div>
@@ -78,5 +81,6 @@
         </div>
       </div>
     </footer>
+
   </body>
 </html>

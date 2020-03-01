@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Loader - Vix</title>
+    <meta name="description" content="A privileged app stub">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Highlight -->
+    <link rel="stylesheet" href="/css/hljs/docco.css">
+    <script src="/js/hljs/highlight.pack.js"></script>
+
+    <!-- Include the bundle -->
+    <link rel="stylesheet" href="/css/raw/bundles/omni.bundle.css">
+
+    <script type="text/javascript" src="/js/bundle.js" defer></script>
+    <script type="text/javascript" src="/js/app.js" defer></script>
+
+    <!-- No translations now -->
+  </head>
+  <body>
+    <header class="container" >
+      <h1 class=""><a href="/" class="internal-link special">Vixalien</a></h1>  <div id="load"></div>
+    </header>
+    <main class="container">
+      <div>
+        <h2><a href="https://vixdesign.github.io" class="internal-link">Vix Loader.</a></h2>
+        <p>Vix is a tool for loading <strong>static</strong> sites.</p>
+        <p>It is just a tool for loading sites and storing them for later use.</p>
+        <p>Note: loader is only for static sites as it save everything for easier later access.</p>
+        <p>Loader is so small it doesn't <strong>currently</strong> have it's repo. But I think it will, in the future.</p>
+        <h4>SOURCE</h4>
+        <p>All the source is <a href="/js/loader.min.js" class="internal-link">here</a></p>
+        <h4>INSTALLING</h4>
+        <p>All you need to do for <kbd>loader</kbd> to install is:</p>
+        <pre><code class="javascript">loader.register()</code></pre>
+        <p>This looks up all links, steals them (handle click events) so that loader looks up the url, caches it in <kbd>localStorage</kbd> then serves cache later instead of loading again.</p>
+        <p>Important things to note are:</p>
+        <ul>
+          <li>Loader cache never expires, even in <strong>2100</strong>, It may still be available. This can cause errors in active development so, while developping, always disactivate loader.</li>
+          <li>Loader automatically loads and cache <kbd>script</kbd> and <kbd>link rel="stylesheet"</kbd> tags. <kbd>script</kbd> tags are automatically evaluated by calling <kbd>eval()</kbd></li>
+        </ul>
+        <h4>NAMESPACES</h4>
+        <p><kbd>loader</kbd> has many methods, some are listed below.</p>
+        <h5>REGISTERALL</h5>
+        <p>This actions get all <kbd>a</kbd> tags and automatically register every one of it.</p>
+        <pre><code>registerAll: function() {
+  links = document.querySelectorAll("a[href].internal-link");
+  for (var i = links.length - 1; i >= 0; i--) {
+    loader.register(links[i]);
+  }
+}</code></pre>
+      <p>Here, internal links is what we used to define links that we only want to load.</p>
+      <h5>register</h5>
+      <p>This get a <kbd>link</kbd> as a param and add an event listener that route it to loader.</p>
+      <pre><code>register: function(link) {
+  if (typeof link == "undefined") {
+    return 0;
+  }
+  link.addEventListener("click", function(e) {
+    e.preventDefault();
+    t = e.target;
+    loader.fetchEvent(t.getAttribute("href"));
+  })
+}</code></pre>
+      <h5>fetchEvent</h5>
+      <p>fetchEvent handle a page load that is: get the html and calls <kbd>parse</kbd> to update the view</p>
+      <pre><code>fetchEvent: function(url, method = "GET", popping = false) {
+  lp = document.getElementById("load");
+  if (lp) {
+    window.scroll(0, 0);
+    lp.innerHTML = "LOADING";
+  }
+  r = loader.load(url, method || "GET");
+  loader.parse(r.response);
+  if (r.status == 404) {
+    lp = document.getElementById("load");
+    if (lp) {
+      window.scroll(0, 0);
+      lp.innerHTML = "ERROR";
+    }
+    window.location = r.url;
+  }
+  if (typeof history.pushState != "undefined") { }
+  if (!popping) {
+    history.pushState({ url: r.url, method: r.method }, "vixalien", url);
+  }
+  onpopstate = function(e) {
+    loader.fetchEvent(e.state.url, e.state.method, true);
+  }
+  loader.exec_scripts();
+}</code></pre>
+      </div>
+    </main>
+    <footer>
+      <div class="flex responsive">
+        <div class="flex">
+          <ul class="menu">
+            <h3>Disciplines</h3>
+            <li><a href="/disciplines/design" class="internal-link">Web design</a></li>
+            <li><a href="/disciplines/rails" class="internal-link">Rails</a></li>
+            <li><a href="/disciplines/low" class="internal-link">Low Level</a></li>
+            <li><a href="/disciplines" class="internal-link">More</a></li>
+
+          </ul>
+          <ul class="menu">
+            <h3>Projects</h3>
+            <li><a href="/projects/vix" class="internal-link">Vix</a></li>
+            <li><a href="/projects/loader" class="internal-link">Loader</a></li>
+            <li><a href="/projects/famous" class="internal-link">Famous</a></li>
+            <li><a href="/projects" class="internal-link">More</a></li>
+          </ul>
+        </div>
+        <div class="flex">
+          <ul class="menu">
+            <h3>Personal</h3>
+            <li><a href="/personal/me" class="internal-link">Me</a></li>
+            <li><a href="/personal/manifestos" class="internal-link">Manifestos</a></li>
+            <li><a href="/personal/contact" class="internal-link">Contact me</a></li>
+          </ul>
+          <ul class="menu">
+            <h3>vixalien</h3>
+            <div id="hello"><kbd>&lt;&gt;</kbd> with ♥ by 👽.</div>
+            <li><a href="https://www.github.com/vixalien">Github</a></li>
+            <li><a href="https://www.twitter.com/vixalien">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="flex">
+          <ul class="menu">
+            <h3>Famous <a class="special" href="#next" id="next">Next &gt;</a></h3>
+            <div><a class="special" href="#hint" id="hint">Need a Hint?</a> <span><span id="score">0</span> Points</span></div>
+            <div class="guess" id="cards">
+              <span>Loading. If you have a crap browser or some error occurred, this will never load.</span>
+            </div>
+            <br>
+            <div id="description"></div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>document.addEventListener("load",
+    hljs.initHighlighting()); hljs.initHighlighting() </script>
+  </body>
+</html>

@@ -4,8 +4,72 @@
 		"selected_items":
 		[
 			[
+				"parse",
+				"parseLibraries\tfunction"
+			],
+			[
 				"get",
-				"getElementById"
+				"getElementById\twarning"
+			],
+			[
+				"libs",
+				"libsplace\twarning"
+			],
+			[
+				"code",
+				"CodeMirror"
+			],
+			[
+				"mySt",
+				"myStylesArea"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"my",
+				"myCodeblock"
+			],
+			[
+				"pre",
+				"previewKeyUp"
+			],
+			[
+				"myCode",
+				"myCodeblock"
+			],
+			[
+				"mys",
+				"myStylesArea"
+			],
+			[
+				"myS",
+				"myStylesArea"
+			],
+			[
+				"link",
+				"link-stylesheet"
+			],
+			[
+				"ge",
+				"getElementsByTagName"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"score",
+				"scoreholder\twarning"
+			],
+			[
+				"dim",
+				"dimensions"
+			],
+			[
+				"di",
+				"display"
 			],
 			[
 				"f",
@@ -164,10 +228,6 @@
 				"closeOpenDialogs\tfunction"
 			],
 			[
-				"add",
-				"addEventListener\tmethod"
-			],
-			[
 				"i",
 				"important"
 			],
@@ -228,10 +288,6 @@
 				"min-width\tproperty"
 			],
 			[
-				"di",
-				"div\tTag"
-			],
-			[
 				"c",
 				"clog\tconsole log"
 			],
@@ -278,10 +334,6 @@
 			[
 				"cl",
 				"click-err"
-			],
-			[
-				"ge",
-				"get\tGet Elements"
 			],
 			[
 				"res",
@@ -380,10 +432,6 @@
 				"letter-spacing\tproperty"
 			],
 			[
-				"link",
-				"link-demo"
-			],
-			[
 				"ba",
 				"background-color\tproperty"
 			],
@@ -466,72 +514,52 @@
 			[
 				"un",
 				"unless\tunless … end"
-			],
-			[
-				"atte",
-				"attendances"
-			],
-			[
-				"curr",
-				"current_user"
-			],
-			[
-				"en",
-				"encrypted"
-			],
-			[
-				"backg",
-				"background-image\tproperty"
-			],
-			[
-				"border-b",
-				"border-bottom-right-radius\tproperty"
-			],
-			[
-				"rgb",
-				"rgba()\tbackground-color"
-			],
-			[
-				"flex",
-				"flex-direction\tproperty"
-			],
-			[
-				"fla",
-				"flash"
-			],
-			[
-				"pen",
-				"pend_params"
-			],
-			[
-				"usre",
-				"username"
-			],
-			[
-				"req",
-				"required"
-			],
-			[
-				"boo",
-				"bootsnap"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Alien/Downloads/csstools-sanitize.css-8.0.0-10-g5bd695f.tar/csstools-sanitize.css-8.0.0-10-g5bd695f/csstools-sanitize.css-5bd695f/README.md",
+			"file": "projects/play/index.html",
 			"settings":
 			{
-				"buffer_size": 7638,
-				"line_ending": "Unix"
+				"buffer_size": 3820,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/stylus/variables.styl",
+			"file": "projects/play/editor.html",
 			"settings":
 			{
-				"buffer_size": 1198,
+				"buffer_size": 1710,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects/play/manifest.json",
+			"settings":
+			{
+				"buffer_size": 669,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects/play/editor.js",
+			"settings":
+			{
+				"buffer_size": 3237,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/bundle.js",
+			"settings":
+			{
+				"buffer_size": 15839,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -637,6 +665,10 @@
 		"selected_items":
 		[
 			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
 				"",
 				"TypeScript: Show Error List"
 			],
@@ -706,12 +738,44 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Sites/vix",
-		"/C/Sites/vix/css",
-		"/C/Sites/vix/js"
+		"/C/Sites/site",
+		"/C/Sites/site/css",
+		"/C/Sites/site/projects",
+		"/C/Sites/site/projects/loader",
+		"/C/Sites/site/projects/play",
+		"/C/Sites/site/projects/vix"
 	],
 	"file_history":
 	[
+		"/C/Sites/extraterrestal/.git/COMMIT_EDITMSG",
+		"/C/Users/clean/Desktop/fl/tah dah - Copy.mp3",
+		"/C/Users/clean/Desktop/fl/FormatFactorySAINt JHN - Roses [Official Music Video] - YouTube~1.mp3",
+		"/C/Users/clean/Desktop/fl/tah dah.mp3",
+		"/C/Sites/site/projects/play/editor.css",
+		"/C/Sites/site/projects/play/editor.js",
+		"/C/Sites/site/projects/play/addon/foldgutter.js",
+		"/C/Sites/site/projects/play/addon/brace-fold.js",
+		"/C/Users/Alien/Desktop/todo",
+		"/C/Sites/rwarrims-beta/.git/COMMIT_EDITMSG",
+		"/C/Users/Alien/$1",
+		"/C/Sites/ace/editor.html",
+		"/C/Sites/ace/src-min/mode-markdown.js",
+		"/C/Sites/ace/src/mode-markdown.js",
+		"/C/Users/Alien/Desktop/motes.xml",
+		"/C/Users/Alien/Desktop/motes-2.0.html",
+		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/htmlmixed/htmlmixed.js",
+		"/C/Users/Alien/Desktop/Markdown/MultiMarkdown.sublime-syntax",
+		"/C/Users/Alien/Downloads/csstools-sanitize.css-8.0.0-10-g5bd695f.tar/csstools-sanitize.css-8.0.0-10-g5bd695f/csstools-sanitize.css-5bd695f/README.md",
+		"/C/Sites/node_modules/caniuse-lite/README.md",
+		"/C/Sites/node_modules/caniuse-lite/dist/unpacker/feature.js",
+		"/C/Sites/site/projects/play/scratchpad.js",
+		"/C/Sites/site/projects/play/style.css",
+		"/C/Sites/site/projects/play/ace.js",
+		"/C/Sites/site/projects/play/widgets.js",
+		"/C/Program Files/Rust stable MSVC 1.39/share/doc/rust/html/rust-by-example/ace.js",
+		"/C/Sites/site/projects/play/libs.js",
+		"/C/Sites/site/projects/play/index.html",
+		"/C/Sites/site/css/stylus/variables.styl",
 		"/C/Sites/vix/css/stylus/high/notifs.styl",
 		"/C/Sites/vix/docs/high/notif.html",
 		"/C/Sites/vix/css/stylus/medium/forms.styl",
@@ -733,7 +797,6 @@
 		"/C/Sites/vix/css/stylus/fonts.styl",
 		"/C/Sites/vix/docs/medium/typography.html",
 		"/C/Users/Alien/philippa/font.html",
-		"/C/Users/Alien/$1",
 		"/C/Sites/vixc/js/main.js",
 		"/C/Sites/vix/docs/medium/layout.html",
 		"/C/Sites/vix/manifest.webapp",
@@ -811,35 +874,7 @@
 		"/C/Sites/rwarrims/app/controllers/documents_controller.rb",
 		"/C/Sites/rwarrims/app/controllers/leaves_controller.rb",
 		"/C/Sites/rwarrims/app/assets/stylesheets/dash.css",
-		"/C/Sites/rwarrims/.git/TAG_EDITMSG",
-		"/C/Sites/rwarrims/app/views/profile/password.html.erb",
-		"/C/Sites/rwarrims/app/helpers/application_helper.rb",
-		"/C/Users/Alien/Downloads/guides/guides/source/form_helpers.md",
-		"/C/Users/Alien/Downloads/guides/guides/source/active_storage_overview.md",
-		"/C/Users/Alien/Downloads/guides/guides/source/_license.html.erb",
-		"/C/Users/Alien/Downloads/guides/guides/source/kindle/copyright.html.erb",
-		"/C/Users/Alien/Downloads/guides/guides/source/kindle/toc.html.erb",
-		"/C/Users/Alien/Downloads/guides/guides/source/active_record_validations.md",
-		"/C/Sites/rwarrims/app/assets/stylesheets/application.css",
-		"/C/Sites/rwarrims/app/controllers/attendance_controller.rb",
-		"/C/Sites/rwarrims/app/assets/stylesheets/style.styl",
-		"/C/Sites/rwarrims/app/helpers/leaves_helper.rb",
-		"/C/Users/Alien/Downloads/guides/guides/source/getting_started.md",
-		"/C/Sites/rwarrims/db/migrate/20191218175453_create_leaves.rb",
-		"/C/Sites/rui/root/login.html",
-		"/C/Sites/rui/css/nav.css",
-		"/C/Sites/rui/root/dashboard.html",
-		"/C/Sites/rui/js/nav.ts",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/User/TypeScript.sublime-settings",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/TypeScript/Preferences.sublime-settings",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/TypeScript/TypeScript.sublime-settings",
-		"/C/Sites/rui/root/index.html",
-		"/C/Users/Alien/Downloads/Compressed/jerryscript-project-jerryscript-v2.1.0-144-g5ceffd2.tar/jerryscript-project-jerryscript-v2.1.0-144-g5ceffd2/jerryscript-project-jerryscript-5ceffd2/CMakeLists.txt",
-		"/C/Users/Alien/Desktop/ultralight/CMakeFiles/CMakeError.log",
-		"/C/Users/Alien/Desktop/stupidak/Download/B2G-master/B2G-master/README.md",
-		"/C/Sites/rui/manifest.webapp",
-		"/C/Sites/rui/css/dashboard.css"
+		"/C/Sites/rwarrims/.git/TAG_EDITMSG"
 	],
 	"find":
 	{
@@ -857,6 +892,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"c25a",
+			"c25a 6a14 2834 a9e6 76ec c619 32c8 761f",
+			"\n</",
+			"this.parent",
+			"update",
+			"form",
+			"widget",
+			"twitter",
+			"<script",
 			"handle_err",
 			"stream",
 			"path_for",
@@ -978,6 +1022,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"this",
 			"url\\('/data/fonts/$1'\\)",
 			"font-style: normal;",
 			"font-stretch: normal;",
@@ -1107,65 +1152,166 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Alien/Downloads/csstools-sanitize.css-8.0.0-10-g5bd695f.tar/csstools-sanitize.css-8.0.0-10-g5bd695f/csstools-sanitize.css-5bd695f/README.md",
+					"file": "projects/play/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7638,
+						"buffer_size": 3820,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7638,
-								7638
+								416,
+								416
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "projects/play/editor.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1624,
+								1624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 256.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "projects/play/manifest.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								642,
+								642
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1411.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "projects/play/editor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3234,
+								3234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1044.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "css/stylus/variables.styl",
+					"buffer": 4,
+					"file": "js/bundle.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1198,
+						"buffer_size": 15839,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								609,
-								609
+								15603,
+								15603
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 228.0,
+						"translation.y": 9073.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1177,7 +1323,7 @@
 	},
 	"input":
 	{
-		"height": 49.0
+		"height": 43.0
 	},
 	"layout":
 	{
@@ -1226,7 +1372,7 @@
 	"project": "vix.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -5,6 +5,24 @@ html, body {
   padding 0
 }
 
+code, kbd
+	background rgb(243, 245, 246)
+	font-size 1em
+	display block
+	border-radius .5em
+	padding .5em
+
+kbd
+	display inline
+	padding 0.1em 0.5em
+
+pre
+	white-space: pre;
+	margin: 0.5em -.5em;
+	& > code
+		background: #0a1826;
+		font-size: .9em !important
+
 body {
   font-size: 1rem;
   background: #fff;
@@ -28,7 +46,8 @@ body
 
 header
 	& > *
-		padding: 0 1em;
+		padding: 0 .5em;
+		text-transform: lowercase;
 	padding .5em
 	margin-bottom 1em
 	background rgb(10, 24, 38)
@@ -36,6 +55,8 @@ header
 		color rgb(146, 161, 177) !important
 
 footer
+	& kbd
+		background transparent
 	margin-top 1em
 	padding-bottom 2em
 	&, & ul.menu
@@ -50,7 +71,14 @@ body
 	padding 0
 	
 body main 
-	font-size: 1.25em;
+	& > div > h2
+		text-transform: lowercase;
+		margin: 1em 0;
+		font-size: 2em;
+	& > div
+		& > h3, h4, h5, h6
+			font-size bolder
+			text-transform uppercase
 	div
 		padding: 0 1em;
 	a
@@ -107,15 +135,16 @@ footer > div.flex
 	background: black
 	caret-color: transparent;
 	text-transform: uppercase;
+	transition .6s
+	outline 0
 	&.card-fill
 		border 0
+	&.card-blank
+		background transparent
+	&:focus
+		border-radius 3px
+		color black
+		background rgb(146, 161, 177)
 .guess {
 	display: flex;
 }
-
-code:not(.inline)
-	background rgb(243, 245, 246)
-	font-size 1em
-	display block
-	border-radius .5em
-	padding .5em

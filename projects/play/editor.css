@@ -1,0 +1,23 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+div.body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+div.editors, div#preview, .CodeMirror {
+	flex: 1;
+	height: 100%;
+}
+div#preview {
+	width: 100%;
+}
+div.editors {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	width: 50%;
+	border-right: 2px solid #2e3440;
+}

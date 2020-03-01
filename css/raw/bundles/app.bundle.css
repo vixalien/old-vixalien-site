@@ -5,6 +5,26 @@ body {
   margin: 0;
   padding: 0;
 }
+code,
+kbd {
+  background: #f3f5f6;
+  font-size: 1em;
+  display: block;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+kbd {
+  display: inline;
+  padding: 0.1em 0.5em;
+}
+pre {
+  white-space: pre;
+  margin: 0.5em -0.5em;
+}
+pre > code {
+  background: #0a1826;
+  font-size: 0.9em !important;
+}
 body {
   font-size: 1rem;
   background: #fff;
@@ -36,7 +56,8 @@ header {
   background: #0a1826;
 }
 header > * {
-  padding: 0 1em;
+  padding: 0 0.5em;
+  text-transform: lowercase;
 }
 header,
 header a {
@@ -45,6 +66,9 @@ header a {
 footer {
   margin-top: 1em;
   padding-bottom: 2em;
+}
+footer kbd {
+  background: transparent;
 }
 footer,
 footer ul.menu {
@@ -62,8 +86,17 @@ footer ul.menu ul.menu li:hover {
 body {
   padding: 0;
 }
-body main {
-  font-size: 1.25em;
+body main > div > h2 {
+  text-transform: lowercase;
+  margin: 1em 0;
+  font-size: 2em;
+}
+body main > div > h3,
+body main > div h4,
+body main > div h5,
+body main > div h6 {
+  font-size: bolder;
+  text-transform: uppercase;
 }
 body main div {
   padding: 0 1em;
@@ -134,18 +167,21 @@ footer > div.flex > div > ul.menu > li > a:active {
   background: #000;
   caret-color: transparent;
   text-transform: uppercase;
+  transition: 0.6s;
+  outline: 0;
 }
 .card-i.card-fill {
   border: 0;
 }
+.card-i.card-blank {
+  background: transparent;
+}
+.card-i:focus {
+  border-radius: 3px;
+  color: #000;
+  background: #92a1b1;
+}
 .guess {
   display: flex;
-}
-code:not(.inline) {
-  background: #f3f5f6;
-  font-size: 1em;
-  display: block;
-  border-radius: 0.5em;
-  padding: 0.5em;
 }
 /*# sourceMappingURL=app.bundle.css.map */

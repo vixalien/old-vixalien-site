@@ -2,9 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Privileged app</title>
+    <title>Design - Vix</title>
     <meta name="description" content="A privileged app stub">
     <meta name="viewport" content="width=device-width">
+
+    <!-- Highlight -->
+    <link rel="stylesheet" href="/css/hljs/docco.css">
+    <script src="/js/hljs/highlight.pack.js"></script>
 
     <!-- Include the bundle -->
     <link rel="stylesheet" href="/css/raw/bundles/omni.bundle.css">
@@ -26,19 +30,23 @@
         <p>Vix is special, in it's ways. It doesn't define everything for you, like Bootstrap. It only provide the fundamentals, It's up to you to extend them.</p>
         <h3>Installing</h3>
         <p>If you use to use an unofficial CDN, put this in your html.</p>
-        <code lang="css">
-          &lt;link rel="stylesheet" type="text/css" href="http://vixdesign.github.io/css/raw/bundles/ui.bundle.css"&gt;
-          &lt;script type="text/javascript" src="http://vixdesign.github.io/js/bundle.js"&gt;&lt;/script&gt;
-        </code>
+        <pre><code class="html">&lt;link rel="stylesheet" type="text/css" href="http://vixdesign.github.io/css/raw/bundles/ui.bundle.css"&gt;
+        &lt;script type="text/javascript" src="http://vixdesign.github.io/js/bundle.js"&gt;&lt;/script&gt;</code></pre>
         <p>However, it is stronly recommended that you build Vix yourself.</p>
         <h3>Building</h3>
-        <p>Checkout vix's repo on github</p>
-        <code lang="bash">
-            git clone https://github.com/vixalien/vixdesign.github.io
-        </code>
+        <p>1. Checkout vix's repo on github</p>
+        <pre><code class="cmd">git clone https://github.com/vixalien/vixdesign.github.io</code></pre>
+        <p>2. Install node and stylus.</p>
+        <p>Install <a class="special" href="http://nodejs.org">NodeJS</a> for your platform. Use the step-by-step wizard.</p>
+        <p>Install <a class="special" href="http://stylus-lang.org">Stylus:</a></pre>
+        <pre><code class="cmd">npm install -g stylus</code></pre>
+        <p>3. Build</p>
+        <p>Got to the root url and type this</p>
+        <pre><code class="cmd">stylus css\stylus\bundles -o css\raw\bundles -w -m</code></pre>
+          <p>This will build all the stylus bundles into the <kbd>css\raw</kbd> directory. You can use the <kbd>omni.bundle.css</code> if you want some minor css for the vix site or <kbd>ui.bundle.css</kbd> to only include vix.</p>
       </div>
     </main>
-    <footer class="container">
+    <footer>
       <div class="flex responsive">
         <div class="flex">
           <ul class="menu">
@@ -52,7 +60,7 @@
           <ul class="menu">
             <h3>Projects</h3>
             <li><a href="/projects/vix" class="internal-link">Vix</a></li>
-            <li><a href="/projects/ms" class="internal-link">RwarriMS</a></li>
+            <li><a href="/projects/ms" class="internal-link">Loader</a></li>
             <li><a href="/projects/famous" class="internal-link">Famous</a></li>
             <li><a href="/projects" class="internal-link">More</a></li>
           </ul>
@@ -66,17 +74,19 @@
           </ul>
           <ul class="menu">
             <h3>vixalien</h3>
-            <div id="hello"><code>&lt;&gt;</code> with ♥ by 👽.</div>
+            <div id="hello"><kbd>&lt;&gt;</kbd> with ♥ by 👽.</div>
             <li><a href="https://www.github.com/vixalien">Github</a></li>
             <li><a href="https://www.twitter.com/vixalien">Twitter</a></li>
           </ul>
         </div>
+      </div>
+      <div class="flex">
         <div class="flex">
           <ul class="menu">
-            <h3>Famous</h3>
-            <div><a class="special" href="#next" id="next">NEXT?</a><span><span id="score">0</span> Points</span></div>
+            <h3>Famous <a class="special" href="#next" id="next">Next &gt;</a></h3>
+            <div><a class="special" href="#hint" id="hint">Need a Hint?</a> <span><span id="score">0</span> Points</span></div>
             <div class="guess" id="cards">
-              <span>Loading, If you have a crap browser, this will never load.</span>
+              <span>Loading. If you have a crap browser or some error occurred, this will never load.</span>
             </div>
             <br>
             <div id="description"></div>
@@ -84,5 +94,7 @@
         </div>
       </div>
     </footer>
+    <script>document.addEventListener("load",
+    hljs.initHighlighting()); hljs.initHighlighting() </script>
   </body>
 </html>

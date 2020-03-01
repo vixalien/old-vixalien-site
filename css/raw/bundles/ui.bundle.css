@@ -1103,27 +1103,27 @@ body {
   height: 100%;
   width: 100%;
 }
-.container * {
+.container > * {
   max-width: 800px;
   margin: 0 auto;
 }
-.container.small * {
+.container.small > * {
   max-width: 600px;
 }
 .flex {
   display: flex;
 }
-.flex * {
+.flex > * {
   height: auto;
   margin: auto 0;
 }
-.flex .tab {
+.flex > .tab {
   flex: 1;
 }
 .flex.vertical {
   flex-direction: column;
 }
-.flex.vertical * {
+.flex.vertical > * {
   margin: 0;
   text-align: left;
 }
