@@ -1,0 +1,31 @@
+{
+ "version": "0.1.0",
+ "name": "vixalien's site",
+ "short_name": "vixsite",
+ "description": "A site, for vixalien",
+ "start_url": "/?utm_source=pwa_homescreen",
+ "orientation": "portrait",
+ "display": "standalone",
+ "serviceworker": "/sw.js",
+ "scope": "/",
+ "background_color": "#ffffff",
+ "theme_color": "#f25767",
+ "prompt_message": "Add a Home screen icon for easy and offline access to muz's docs",
+ "icons": [
+  {
+    "src": "/img/icons/icon.svg",
+    "sizes": "144x144",
+    "type": "image/png"
+  }],
+  "status": "ok",
+  "developer": {
+    "name": "saintvixalien",
+    "url": "github.com/vixalien"
+  },
+  "type": "privileged",
+  "permissions": [],
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en"
+}
