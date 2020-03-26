@@ -3,8 +3,6 @@ addEventListener('install', (event) => {
 		event.waitUntil(
 			caches.open('v1').then((cache) => {
 				return cache.addAll([
-					'/',
-					'/index.html',
 					'/manifest.json',
 					'/img/icons/vix.png',
 				]);
@@ -17,6 +15,7 @@ addEventListener('install', (event) => {
 onmessage = e => { console.log(e) }
 
 self.addEventListener('fetch', (event) => {
+	console.log("The ev is", event);
 	event.respondWith(
 		caches.match(event.request).then((resp) => {
 			return resp || fetch(event.request).then((response) => {
@@ -25,7 +24,6 @@ self.addEventListener('fetch', (event) => {
 					if (event.request.url.indexOf("data") > 0) {
 						cache.put(event.request, responseClone);
 					}
-					// TODO: Add more conditions to put
 				});
 				return response;
 			});
@@ -35,15 +33,15 @@ self.addEventListener('fetch', (event) => {
 	);
 })
 
-	self.addEventListener('activate', (event) => {
-		var cacheKeeplist = ['v1'];
-		event.waitUntil(
-			caches.keys().then((keyList) => {
-				return Promise.all(keyList.map((key) => {
-					if (cacheKeeplist.indexOf(key) === -1) {
-						return caches.delete(key);
-					}
-				}));
-			})
-		);
-	});
+self.addEventListener('activate', (event) => {
+	var cacheKeeplist = ['v1'];
+	event.waitUntil(
+		caches.keys().then((keyList) => {
+			return Promise.all(keyList.map((key) => {
+				if (cacheKeeplist.indexOf(key) === -1) {
+					return caches.delete(key);
+				}
+			}));
+		})
+	);
+});
