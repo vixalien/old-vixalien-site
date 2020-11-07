@@ -1,0 +1,103 @@
+@import "variables"
+
+@font-face {
+  font-family: sans;
+  font-weight: 100 900;
+  font-display: block;
+  src: url('/data/fonts/inter.woff2')
+    format('woff2');
+}
+
+html {
+	font-family 'Inter'
+}
+
+body
+	margin 0
+
+.container
+	& > *
+		max-width 800px
+		margin 0 auto
+	&.small > *
+		max-width 600px
+.flex
+	display flex
+	& > *
+		height auto
+		margin auto 0
+	& > .tab
+		flex 1
+	&.vertical
+		flex-direction column
+		& > *
+			margin 0
+			text-align left
+	@media all and (max-width: 800px)
+		&.responsive
+			flex-direction column
+
+main
+	padding 0.5em 1em
+
+header
+	padding .5em
+	background rgb(10, 24, 38)
+	& > h1
+		padding: 0 .5em;
+		margin 0
+		font-size 2em
+		color rgb(146, 161, 177)
+
+footer
+	& kbd
+		background transparent
+		margin 0
+		padding 0
+		color inherit
+	margin-top 1em
+	padding .5em
+	background rgb(10, 24, 38)
+	color white
+	ul.menu
+		margin-left 0
+		h1, h2, h3, h4, h5, h6
+			color grayblue
+			font-size 1.125em
+		li
+			list-style none
+			border-radius 5px
+			padding 10px
+			&:hover
+				background black
+
+footer > div.flex
+	margin-top 1em
+	& > div
+		margin-top 0
+		flex 1
+		& > ul.menu
+			padding 1em 0
+			margin-top 0
+			width 100%
+			border 0
+			& > h3
+				color rgb(146, 161, 177)
+			& > h3, & > div
+				margin 0
+				padding 0 .5em
+			& > li
+				& > a
+					&:focus, &:active
+						background unset
+					&:hover
+						text-decoration none
+					padding 0.5em
+					color white
+					text-decoration none
+					border-bottom none
+				margin 0
+				padding 0.25em 0
+				width: fit-content
+				color white
+				

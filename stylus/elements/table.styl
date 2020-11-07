@@ -1,0 +1,63 @@
+/* Tables */
+table
+	margin-top 1.5rem
+	border-spacing 0px
+	border-collapse collapse
+
+table td,
+table th 
+	padding 0
+	line-height 33px
+
+/* TABLE */
+
+/* fix, we can't do much without these lines of code */
+table {
+	border-collapse collapse
+	border-spacing 0
+}
+
+/* TABLES */
+
+table {
+	width 100%;
+	margin-bottom 3em
+	word-wrap normal    /* 12 column layout fixes begin */
+	table-layout auto
+	display table
+	overflow hidden
+	overflow-x auto;     /* 12 column layout fixes end */
+}
+
+table thead tr {
+	border-bottom 1px solid #333
+}
+
+table thead tr th {
+	font-weight 600
+	color #333
+	padding 3px 1em 3px 0
+	vertical-align bottom
+	text-align left
+	line-height inherit
+}
+
+table tr {
+	border-bottom 1px solid #e6e6e6
+}
+
+table tr td {
+	color #666
+	line-height 1.5em
+	padding .5em 1em .5em 0
+	vertical-align top
+}
+
+@media all and (max-width 735px) {
+	table thead tr th,
+	table tr td {
+		/*font-size 11px;*/
+		line-height 1.2em
+	}
+}
+

@@ -1,0 +1,45 @@
+/* Notif */
+.notif
+	display flex
+	position static
+	background-color #0a1826
+	color rgba(255,255,255,0.702)
+	width max-content
+	padding 0 !important
+	box-shadow 0 0 18px 5px rgba(0, 0, 0, 0.2)
+	border 1px solid black
+	border-radius .5em
+	overflow hidden
+	animation moveup .3s ease
+	transition .3s
+	box-shadow 0 0 9px 1px rgba(0,0,0,0.5)
+	.notif-content, .notif-button
+		padding .25em 1em
+	.notif-content
+		flex 1
+	.notif-buttons
+		display flex
+		.notif-button
+			margin 0
+			&:hover
+				background-color black
+			/* just to be more specific */
+			&::after
+				display none
+			&:first-child
+				border-left 1px solid #727272
+
+.notif-space
+	position fixed
+	left 0
+	right 0
+	bottom 4em
+	display flex
+	flex-direction column
+	width max-content
+	max-width 100%
+	margin auto
+
+.notif-space .notif
+	width auto
+	margin-block-start 10px

@@ -1,0 +1,118 @@
+// INPUTS
+input[type="text"], input[type="date"], input[type="time"], input[type="email"], input[type="tel"], input[type="file"], input[type="password"], input[type="color"], textarea, select
+	font-size 1em
+	outline none
+	border none
+	-webkit-backdrop-filter saturate(180%) blur(20px)
+	backdrop-filter saturate(180%) blur(20px)
+	background-color rgba(224, 224, 224, 0.7)
+	margin-bottom 3px
+	border-radius 0
+	transition .3s
+	padding 0.35em 0.75em
+	font-family Philippa
+	width 100%
+	&:active, &:focus
+		background-color rgba(207, 206, 206, 0.7)
+
+// fix for textarea resize delay
+textarea
+	transition 0ms
+
+// fix for color spanning 100% height
+input[type="color"]
+	height 2em
+	cursor pointer
+
+input[type="checkbox"],
+input[type="radio"]
+	appearance none
+	width 0.8em
+	height 0.8em
+	border 1px solid black
+	display inline-flex
+	margin 0
+	margin-right 0.3em
+	outline 0
+	cursor pointer
+	transition 0.3s
+	background-position center
+	background-repeat norepeat
+
+input[type="radio"]
+	border-radius 50%
+
+input[type="radio"]:checked
+	background-size auto
+	background-color #000
+
+input[type="checkbox"]:checked
+	background-size 100%
+	background-image url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPmlvbmljb25zLXY1LWU8L3RpdGxlPjxwb2x5bGluZSBwb2ludHM9IjQxNiAxMjggMTkyIDM4NCA5NiAyODgiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMDA7c3Ryb2tlLWxpbmVjYXA6c3F1YXJlO3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS13aWR0aDo0NHB4Ii8+PC9zdmc+")
+
+/* Floating labels */
+
+/* Make the field a flex-container, reverse the order so label is on top. */
+ 
+input.floating
+	display flex
+	flex-flow column-reverse
+	margin-bottom 1em
+	/**
+	* By default, the placeholder should be transparent. Also, it should 
+	* inherit the transition.
+	*/
+	::-webkit-input-placeholder
+		opacity 0
+		transition inherit
+	/**
+	* Add a transition to the label and input.
+	* I'm not even sure that touch-action manipulation works on
+	* inputs, but hey, it's new and cool and could remove the 
+	* pesky delay.
+	*/
+	& label, input
+		transition all 0.2s
+		touch-action manipulation
+	& input
+		border 0
+		border-bottom 1px solid #ccc
+		font-family inherit
+		-webkit-appearance none
+		border-radius 0
+		cursor text
+		&:focus
+			outline 0
+			border-bottom 1px solid #666
+			/**
+			* Show the placeholder when the input is focused.
+			*/
+			&::-webkit-input-placeholder
+				opacity 1
+		/**
+		* Translate down and scale the label up to cover the placeholder,
+		* when following an input (with placeholder-shown support).
+		* Also make sure the label is only on one row, at max 2/3rds of the
+		* field—to make sure it scales properly and doesn't wrap.
+		*/
+		&:placeholder-shown + label
+			cursor text
+			max-width 66.66%
+			white-space nowrap
+			overflow hidden
+			text-overflow ellipsis
+			transform-origin left bottom
+			transform translate(.5em, 2.125em) scale(1.25)
+			pointer-events none
+		/**
+		* When the element is focused, remove the label transform.
+		* Also, do this when the placeholder is _not_ shown, i.e. when 
+		* there's something in the input at all.
+		*/
+		&:not(:placeholder-shown) + label,
+		&:focus + label
+			transform translate(0, 0) scale(1)
+			cursor pointer
+
+	& label
+		letter-spacing 0.05em

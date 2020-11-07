@@ -1,0 +1,76 @@
+/* Links */
+a, .link
+	color inherit
+	cursor pointer
+	text-decoration none
+	font-weight inherit
+	border-bottom 1px solid
+	&:hover
+		color link-color
+		border-bottom-color link-color
+	&.red
+		&:hover
+			color red
+			border-bottom-color red
+
+h1, h2, h3, h4, h5, h6
+	a, .link
+		color inherit
+		border-bottom none
+		&:hover
+			color inherit
+			text-decoration underline
+
+/* Buttons */
+button, input[type="submit"], input[type="reset"], input[type="button"], .btn
+	padding .5em 1em
+	margin -.5em -1em
+	background-color transparent
+	border 0
+	font-weight 500
+	text-transform uppercase
+	font-feature-settings "case" 1
+	letter-spacing .1em
+	outline 0
+	cursor pointer
+	position relative
+	font-size .8em
+	&:after
+		transition .3s
+		content ""
+		position absolute
+		left 1em
+		right 1em
+		bottom .3em
+		transform scale3d(1,.2,1) translate3d(0,8px,0);
+		opacity 0
+		background currentColor
+		height 2px
+		pointer-events none
+	&:hover, &:focus, &.active
+		&::after
+			opacity 1
+			transform scale3d(1,1,1)translate3d(0,0,0);
+	&.outline
+		border 2px solid
+	&.block
+		background-color hsl(221.28, 53.85%, 61.81%)
+		background-image linear-gradient(160deg,rgba(255,255,255,.4),rgba(0,0,0,.4))
+		background-blend-mode overlay
+		color white
+	&.text
+		&::after
+			opacity 0
+
+/* Button bag, provide padding for buttons */
+.btn-bag
+	padding .5em 1em
+	margin 0 !important
+	&-rl
+		padding 0em 1em
+	&-tb
+		padding .5em 0em
+	&-resp
+		padding 0em 1em
+		@media (max-width 800px)
+			padding .5em 0em

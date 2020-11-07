@@ -1,0 +1,279 @@
+/* Copy & Lists */
+p, .body
+	margin-top .5rem
+	margin-bottom 0
+	text-align justify
+
+hlevels = 1 2 3 4 5 6
+
+/* Headings */
+
+/* Initial styles */
+for l in hlevels
+	h{l}, .txt-h{l}
+		font-weight bold
+		// font-family Philippa
+		// margin-top 1.5rem
+		// margin-bottom .5em
+		// line-height 1.2
+
+.txt-super
+	font-size 4rem
+	line-height 72px
+
+.txt-large
+	font-size 3.5rem
+	line-height 64px
+
+h1, .txt-h1
+	font-size 3rem
+	line-height 56px
+
+h2, .txt-h2
+	font-size 2.5rem
+	line-height 44px
+
+h3, .txt-h3
+	font-size 2rem
+	line-height 36px
+
+h4, .txt-h4
+	font-size 1.5rem
+	line-height 28px
+
+h5, .txt-h5
+	font-size 1.25rem
+	line-height 24px
+
+h6, .txt-h6
+	font-size 1rem
+	line-height 20px
+	
+body
+	font-size 1rem
+	line-height 24px
+
+.large
+	font-size 1.125rem
+	line-height 36px
+.small
+	font-size .875rem
+	line-height 22px
+.xs
+	font-size .75rem
+	line-height 18px
+
+
+/* Leading paragraph text */
+.lead
+	font-size 1.414rem
+	line-height 1.2em
+
+/* Hug the block above you */
+.hug
+	margin-top 0
+
+/* Lists */
+ul, ol
+	margin-top 1.5rem
+	margin-bottom 1.5rem
+
+ul li, ol li
+	line-height 1.5rem
+
+ul ul, ol ul, ul ol, ol ol
+	margin-top 0
+	margin-bottom 0
+
+dd, dl, ol, pre, ul
+	margin-bottom 1.64706em
+
+dd
+	margin-left 0
+dt
+	font-weight 600
+
+/* Blockquote */
+blockquote 
+	line-height 1.5rem
+	margin-top 1.5rem
+	margin-bottom 1.5rem
+
+// h6, .txt-h6
+// 	font-size 1.4rem
+// 	text-transform uppercase
+// 	font-weight 600
+// 	color gray1
+
+/* Inline code blocks */
+code
+	vertical-align bottom
+	background-color #f3f5f6
+	color #3c4752
+	padding .1em .4em
+	margin .1em .2em
+	border-radius 5px
+
+/* Block code blocks */
+pre code
+	padding 1em
+	display block
+	line-height 1.3rem
+	overflow auto
+	white-space pre
+	margin 0
+	-webkit-overflow-scrolling touch
+
+/* Keyboard input */
+kbd
+	background-color black
+	color white
+	padding .1em .4em
+	margin .1em .2em
+	border-radius 5px
+
+/* Horizontal rule */
+hr
+	border 0
+	border-bottom 1px solid
+	height 0
+	margin 1.6em 0
+	clear both
+
+/* TEXT HELPERS */
+
+/* align helpers */
+.txt
+	for i in right center left justify
+		&-{i}
+			text-align i
+
+/* justify on small devices look like hell */
+@media (max-width 560px)
+	.txt-justify
+		text-align unset
+
+/* hyphens */
+.txt-hyphens
+	hyphens auto
+	a
+		hyphens none
+
+/* text ellipsis */
+.txt-ellipsis
+	text-overflow ellipsis
+	white-space nowrap
+	overflow hidden
+
+/* font styles */
+.txt
+	&-italic, em, i
+		font-size italic
+	&-bold, b, strong
+		font-weight 600
+	&-roman, h1 > em
+		font-weight normal
+	&-sub
+		font-feature-settings "sups"
+	&-sup
+		font-feature-settings "subs"
+
+/* small styles */
+sub,sup, .badge
+	font-size 50%;
+	line-height 0
+.badge
+	color #35a8c9
+
+sizes = 0 1 2 3 5 10
+colors = {black: gray2, gray: gray1, light: gray3}
+
+// FLEX
+
+/* flex bar */
+.flex-bar
+	& > *
+		margin auto 0
+	&.flex-eq
+		& > *
+			flex 1
+	&.flex-resp
+		@media (max-width 800px)
+			flex-direction column
+	display inline-flex
+	justify-content space-between
+	width 100%
+	.flex-tab, .flex-one
+		flex 1
+
+/* Sheets */
+.sheet
+	&-black
+		background-color gray2
+		color ongray2
+		padding 10px
+	&-gray
+		background-color gray1
+		color ongray1
+		padding 10px
+	&-light
+		background-color gray3
+		color ongray3
+		padding 10px
+
+/* colors */
+.txt
+	&-black
+		color gray2
+	&-gray
+		color gray1
+	&-light
+		color gray3
+	/* font weights */
+	&-semibold
+		font-weight 600
+	&-medium
+		font-weight 500
+	&-regular
+		font-weight 400
+	&-light
+		font-weight 300
+
+/* custom fonts */
+for font in serif sans-serif antipode philippa cursive handwriting auto fantasy monospace
+	.font-{font}
+		font-family font
+
+/* border radiuses */
+.br
+	for size in sizes
+		&-{size}
+			border-radius (size)px
+		&-1-em
+			border-radius 1em
+
+/* paddings */
+.pd
+	&-1-em
+		padding 1em
+	for size in sizes
+		&-{size}
+			padding (size)px
+		&-rl-{size}
+			padding-left (size)px
+			padding-right (size)px
+		&-tb-{size}
+			padding-top (size)px
+			padding-bottom (size)px
+
+/* Grid */
+.grid
+	/* Grid Fallback */
+	display flex
+	flex-wrap wrap
+	
+	/* Supports Grid */
+	display grid
+	grid-template-columns repeat(auto-fill, minmax(225px, 1fr));
+	grid-auto-rows minmax(150px, auto);
+	grid-gap 1em
